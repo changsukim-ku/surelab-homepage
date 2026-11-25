@@ -58,10 +58,13 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 </div>
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px">
 <sc-for list="{{areas}}" as="a" hint-placeholder-count="3">
-<div style="background: #FFFFFF; border: 1px solid #E4E2DE; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<div style="background: #FFFFFF; border: 1px solid #E4E2DE; display: flex; flex-direction: column">
+<img src="{{a.img}}" alt="" style="width: 100%; height: 170px; object-fit: cover; display: block; border-bottom: 1px solid #EEECE8">
+<div style="flex: 1 1 auto; padding: 24px 28px 28px; display: flex; flex-direction: column; gap: 14px">
 <h3 style="margin: 0; font-size: 20px; font-weight: 600">{{a.name}}</h3>
 <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #44444C">{{a.desc}}</p>
 <div style="margin-top: auto; padding-top: 12px; border-top: 1px solid #EEECE8; font-size: 13px; line-height: 1.6; color: #55555E">{{a.papers}}</div>
+</div>
 </div>
 </sc-for>
 </div>
@@ -138,9 +141,9 @@ stats: [
 { value: '13', label: 'Current graduate students' }
 ],
 areas: [
-{ name: 'Order Learning', desc: 'Estimating ranks by comparing instances with references of known ranks, with applications to age estimation and image quality assessment.', papers: 'OL (ICLR 2020) · GOL (NeurIPS 2022) · UOL (ICLR 2024) · ConOrd, SOL (ICML 2026)' },
-{ name: 'Learned Compression', desc: 'Learned image and video codecs for humans, and compact representations that let AI models understand visual data from fewer tokens.', papers: 'DPICT (CVPR 2022) · CTC (CVPR 2023) · BLI (NeurIPS 2026)' },
-{ name: 'Visual Understanding', desc: 'Image quality assessment, enhancement, frame interpolation, lane detection, depth estimation, and segmentation.', papers: 'BiFormer (CVPR 2023) · MFP, MSPN (CVPR 2024) · CanonCGT (CVPR 2026)' }
+{ name: 'Order Learning', img: '/_blob/5583ebb25b09567b8a8654c6176e422a', desc: 'Estimating ranks by comparing instances with references of known ranks, with applications to age estimation and image quality assessment.', papers: 'OL (ICLR 2020) · GOL (NeurIPS 2022) · UOL (ICLR 2024) · ConOrd, SOL (ICML 2026)' },
+{ name: 'Learned Compression', img: '/_blob/e94a593d9b08112bc906aab7616e7bae', desc: 'Learned image and video codecs for humans, and compact representations that let AI models understand visual data from fewer tokens.', papers: 'DPICT (CVPR 2022) · CTC (CVPR 2023) · BLI (NeurIPS 2026)' },
+{ name: 'Visual Understanding', img: '/_blob/de01229e8ad6e71a715f22b5870a4d05', desc: 'Image quality assessment, enhancement, frame interpolation, lane detection, depth estimation, and segmentation.', papers: 'BiFormer (CVPR 2023) · MFP, MSPN (CVPR 2024) · CanonCGT (CVPR 2026)' }
 ],
 pubs: [
 { venue: 'NeurIPS 2026', title: 'Bound-conditioned latent inference for progressive image compression', authors: 'Jaeseok Jang*, Seungmin Jeon*, Kwang Pyo Choi, Chang-Su Kim' },
