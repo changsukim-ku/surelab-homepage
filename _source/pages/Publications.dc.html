@@ -34,11 +34,6 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 
 <section style="max-width: 1200px; margin: 0 auto; padding: 72px 32px 24px; display: flex; flex-direction: column; gap: 20px">
 <h1 style="margin: 0; font-size: 48px; letter-spacing: -1.2px">Publications</h1>
-<div style="display: flex; flex-wrap: wrap; gap: 10px">
-<sc-for list="{{tabs}}" as="t" hint-placeholder-count="5">
-<button onClick="{{t.pick}}" data-filter="{{t.key}}" style="font-family: inherit; font-size: 14px; font-weight: 600; padding: 10px 18px; min-height: 44px; cursor: pointer; border: 1px solid {{t.border}}; background: {{t.bg}}; color: {{t.fg}}">{{t.label}}</button>
-</sc-for>
-</div>
 </section>
 
 <section style="max-width: 1200px; margin: 0 auto; padding: 16px 32px 72px; display: flex; flex-direction: column; gap: 40px">
@@ -80,7 +75,6 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 <script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":38000}}'>
 class Component extends DCLogic {
 renderVals() {
-const sel = (this.state && this.state.sel) || 'all';
 const J = 'jour', C = 'conf';
 const all = [
 {"y": "2026", "k": "conf", "no": "C248", "authors": "Jaeseok Jang*, Seungmin Jeon*, Kwang Pyo Choi, and Chang-Su Kim", "title": "Bound-conditioned latent inference for progressive image compression", "venue": "NeurIPS, Sydney, Australia, Dec. 2026 (* Equal contribution)"},
@@ -440,11 +434,9 @@ const all = [
 {"y": "1996", "k": "conf", "no": "C2", "authors": "Chang-Su Kim, Rin-Chul Kim, and Sang-Uk Lee", "title": "Fractal coding of video sequence using CPM and NCIM", "venue": "International Workshop on New Video Media Technology, Seoul, Korea, Mar. 1996"},
 {"y": "1995", "k": "conf", "no": "C1", "authors": "Chang-Su Kim, Rin-Chul Kim, and Sang-Uk Lee", "title": "Novel fractal image compression method with non-iterative decoder", "venue": "IEEE ICIP, Washington D.C., Oct. 1995"}
 ];
-const shown = all.filter(p => sel === 'all' || p.k === sel);
+const shown = all;
 const years = [...new Set(all.map(p => p.y))].map(y => ({ year: y, items: shown.filter(p => p.y === y) })).filter(g => g.items.length);
-const defs = [['all', 'All'], [J, 'International Journals (108)'], [C, 'International Conferences (248)']];
-const tabs = defs.map(([k, label]) => ({ key: k, label, pick: () => this.setState({ sel: k }), bg: sel === k ? '#17171B' : '#FFFFFF', fg: sel === k ? '#FFFFFF' : '#17171B', border: sel === k ? '#17171B' : '#D6D3CE' }));
-return { tabs, years };
+return { years };
 }
 }
 </script>

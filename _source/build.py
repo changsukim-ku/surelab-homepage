@@ -117,7 +117,7 @@ def build_page(src_name, out_name, title):
         body = body.replace(f'href="{src}', f'href="{dst}')
     body = body.replace('href="#" style="color: #862633; border-bottom', f'href="{out_name}" style="color: #862633; border-bottom')
     body = body.replace('<a href="#" style="display: flex; align-items: center; gap: 12px">', '<a href="index.html" style="display: flex; align-items: center; gap: 12px">')
-    if src_name == 'Publications.dc.html':
+    if src_name == 'Publications.dc.html' and 'data-filter' in body:
         body += PUB_FILTER_JS
     page = f'''<!doctype html>
 <html lang="en">
