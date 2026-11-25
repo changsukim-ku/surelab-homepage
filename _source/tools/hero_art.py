@@ -58,8 +58,8 @@ def build(anim=False):
     # glowing anchors
     for k in range(5):
         t=0.1+0.2*k; x,y,z=P(onband(t))
-        c=col(t); el.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="13" fill="{c}" opacity="0.55" filter="url(#halo)"><animate attributeName="opacity" values="0.3;0.75;0.3" dur="4s" begin="{k*0.8}s" repeatCount="indefinite"/></circle>')
-        el.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="5.5" fill="#FFFFFF"/><circle cx="{x:.1f}" cy="{y:.1f}" r="5.5" fill="none" stroke="{c}" stroke-width="2.2"/>')
+        c=col(t); el.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="19" fill="{c}" opacity="0.7" filter="url(#halo)"><animate attributeName="opacity" values="0.5;0.95;0.5" dur="4s" begin="{k*0.8}s" repeatCount="indefinite"/></circle>')
+        el.append(f'<circle cx="{x:.1f}" cy="{y:.1f}" r="10.5" fill="#FFFFFF" opacity="0.9"/><circle cx="{x:.1f}" cy="{y:.1f}" r="8.5" fill="{c}"/><circle cx="{x:.1f}" cy="{y:.1f}" r="3.6" fill="#FFFFFF"/>')
     defs.append('</defs>')
     return f'<svg viewBox="0 0 {W} {H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Ordered representations on a hypersphere">{"".join(defs)}{"".join(el)}</svg>'
 open('hero_art.svg','w').write(build())
