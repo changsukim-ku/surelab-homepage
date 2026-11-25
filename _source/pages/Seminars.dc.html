@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SuRe Lab Seminars</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#17171B;text-decoration:none}a:hover{color:#862633}
+</style>
+</helmet>
+<div style="font-family: Inter, sans-serif; color: #17171B; background: #FFFFFF; min-width: 0">
+
+<header style="border-bottom: 1px solid #E4E2DE">
+<div style="max-width: 1200px; margin: 0 auto; padding: 18px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 12px">
+<svg width="38" height="38" viewBox="0 0 72 72" aria-hidden="true"><circle cx="12" cy="12" r="7" fill="#D6D3CE"></circle><circle cx="36" cy="12" r="7" fill="#D6D3CE"></circle><circle cx="60" cy="12" r="7" fill="#862633"></circle><circle cx="12" cy="36" r="7" fill="#D6D3CE"></circle><circle cx="36" cy="36" r="7" fill="#862633"></circle><circle cx="60" cy="36" r="7" fill="#862633"></circle><circle cx="12" cy="60" r="7" fill="#862633"></circle><circle cx="36" cy="60" r="7" fill="#862633"></circle><circle cx="60" cy="60" r="7" fill="#862633"></circle></svg>
+<span style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-weight: 700; font-size: 28px; letter-spacing: -1px; line-height: 1">SuRe Lab</span>
+<span style="font-size: 12px; color: #55555E">Superintelligence Representation Lab · Korea University</span>
+</span>
+</a>
+<nav style="display: flex; flex-wrap: wrap; gap: 28px; font-size: 15px; font-weight: 500">
+<a href="People.dc.html">People</a>
+<a href="Publications.dc.html">Publications</a>
+</nav>
+</div>
+</header>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 72px 32px 24px; display: flex; flex-direction: column; gap: 12px">
+<h1 style="margin: 0; font-size: 48px; letter-spacing: -1.2px">Weekly Seminars</h1>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #44444C; max-width: 760px">Every Friday afternoon, one student presents a recent paper and two students report on their own research. Seminars from the past twelve months are listed below.</p>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 24px 32px 72px; display: flex; flex-direction: column">
+<div style="display: flex; gap: 24px; padding: 12px 0; border-bottom: 2px solid #17171B; font-size: 13px; font-weight: 600; color: #55555E; text-transform: uppercase; letter-spacing: 0.6px">
+<span style="flex: 0 0 110px">Date</span>
+<span style="flex: 999 1 480px">Paper seminar</span>
+<span style="flex: 0 0 240px">Research seminar</span>
+</div>
+<sc-for list="{{rows}}" as="r" hint-placeholder-count="7">
+<div style="display: flex; flex-wrap: wrap; gap: 6px 24px; padding: 18px 0; border-bottom: 1px solid #E4E2DE; font-size: 15px; line-height: 1.5">
+<span style="flex: 0 0 110px; color: #55555E">{{r.date}}</span>
+<span style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 2px">
+<span style="font-weight: 600">{{r.title}}</span>
+<span style="font-size: 14px; color: #55555E">{{r.presenter}}</span>
+</span>
+<span style="flex: 0 0 240px; color: #33333A">{{r.research}}</span>
+</div>
+</sc-for>
+</section>
+
+<footer style="background: #17171B; color: #B9B9C0">
+<div style="max-width: 1200px; margin: 0 auto; padding: 22px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px; font-size: 13px; line-height: 1.6">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px; color: #FFFFFF">
+<svg width="26" height="26" viewBox="0 0 72 72" aria-hidden="true"><circle cx="12" cy="12" r="7" fill="#4A4A52"></circle><circle cx="36" cy="12" r="7" fill="#4A4A52"></circle><circle cx="60" cy="12" r="7" fill="#C23B4F"></circle><circle cx="12" cy="36" r="7" fill="#4A4A52"></circle><circle cx="36" cy="36" r="7" fill="#C23B4F"></circle><circle cx="60" cy="36" r="7" fill="#C23B4F"></circle><circle cx="12" cy="60" r="7" fill="#C23B4F"></circle><circle cx="36" cy="60" r="7" fill="#C23B4F"></circle><circle cx="60" cy="60" r="7" fill="#C23B4F"></circle></svg>
+<span style="font-weight: 700; font-size: 19px; letter-spacing: -0.6px">SuRe Lab</span>
+</a>
+<span style="flex: 1 1 420px; min-width: 0">#405, New Engineering Building, Korea University, 145 Anam-ro, Seongbuk-gu, Seoul 02841 · Tel +82-2-3290-3806</span>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 20px">
+<a href="http://www.korea.ac.kr/" style="color: #B9B9C0">Korea University</a>
+<a href="http://ee.korea.ac.kr/" style="color: #B9B9C0">School of Electrical Engineering</a>
+</div>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1500}}'>
+class Component extends DCLogic {
+renderVals() {
+const r = (date, presenter, title, research) => ({ date, presenter, title, research });
+return {
+rows: [
+r('Nov 27, 2026', 'Seunggyun Woo', 'Few-Shot Image Quality Assessment via Adaptation of Vision-Language Models (ICCV 2025)', 'Junhyeok Heo, Youngeon Kim'),
+r('Nov 20, 2026', 'Jiwon Kim', 'SLER-IR: Spherical Layer-wise Expert Routing for All-in-One Image Restoration (ECCV 2026)', 'Hanbin Jeon, Beomjun Shim'),
+r('Nov 13, 2026', 'No paper seminar', 'Research seminars only', 'Jinwon Ko, Donghyun Son'),
+r('Nov 6, 2026', 'Chaewon Lee', 'GoR: A Unified and Extensible Generative Framework for Ordinal Regression (ICLR 2026)', 'Seunggyun Woo, Seungmin Jeon'),
+r('Oct 30, 2026', 'Jaeseok Jang', 'InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression (ICLR 2026)', 'Jiwon Kim, Jintae Kim'),
+r('Oct 23, 2026', 'Jinwon Ko', 'ColorFM: An Optimization-to-Learning Framework for Color Transfer via Flow Matching (ECCV 2026)', 'Minseo Cho, Chaewon Lee'),
+r('Oct 16, 2026', 'Hanbin Jeon', 'Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment (ICLR 2026)', 'Youngeon Kim, Jaeseok Jang'),
+r('Oct 2, 2026', 'Seungmin Jeon', 'Ultra-fast neural video compression (CVPR 2026)', 'Beomjun Shim, Junhyeok Heo')
+]
+};
+}
+}
+</script>
+</body>
+</html>

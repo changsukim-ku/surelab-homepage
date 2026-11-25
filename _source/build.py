@@ -1,0 +1,146 @@
+#!/usr/bin/env python3
+"""Render the design-canvas pages (.dc.html) into a plain static website."""
+import html, json, os, re, shutil, subprocess, sys
+
+SRC = sys.argv[1]   # folder with *.dc.html
+OUT = sys.argv[2]   # output site folder
+ASSETS = sys.argv[3]  # folder with images
+
+PAGES = {  # source -> (output file, page title)
+    'Main.dc.html': ('index.html', 'SuRe Lab · Superintelligence Representation Lab'),
+    'People.dc.html': ('people.html', 'People · SuRe Lab'),
+    'Publications.dc.html': ('publications.html', 'Publications · SuRe Lab'),
+    'Join.dc.html': ('join.html', 'Join us · SuRe Lab'),
+    'Seminars.dc.html': ('seminars.html', 'Seminars · SuRe Lab'),
+}
+BLOBS = {
+    '/_blob/eb78a1e16175a13c8873a8f7041376aa': 'images/cskim.jpg',
+}
+
+DOTS = ''.join(f'<circle cx="{x}" cy="{y}" r="7" fill="{c}"/>' for x, y, c in [
+    (12, 12, '#D6D3CE'), (36, 12, '#D6D3CE'), (60, 12, '#862633'), (12, 36, '#D6D3CE'), (36, 36, '#862633'),
+    (60, 36, '#862633'), (12, 60, '#862633'), (36, 60, '#862633'), (60, 60, '#862633')])
+FAVICON = f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72">{DOTS}</svg>'
+
+PUB_FILTER_JS = """<script>
+(function () {
+  var btns = document.querySelectorAll('[data-filter]');
+  function show(k) {
+    btns.forEach(function (b) {
+      var on = b.getAttribute('data-filter') === k;
+      b.style.background = on ? '#17171B' : '#FFFFFF';
+      b.style.color = on ? '#FFFFFF' : '#17171B';
+      b.style.borderColor = on ? '#17171B' : '#D6D3CE';
+    });
+    document.querySelectorAll('[data-kind]').forEach(function (r) {
+      r.style.display = (k === 'all' || r.getAttribute('data-kind') === k) ? '' : 'none';
+    });
+    document.querySelectorAll('[data-year]').forEach(function (y) {
+      var any = Array.prototype.some.call(y.querySelectorAll('[data-kind]'), function (r) { return r.style.display !== 'none'; });
+      y.style.display = any ? '' : 'none';
+    });
+  }
+  btns.forEach(function (b) { b.addEventListener('click', function () { show(b.getAttribute('data-filter')); }); });
+})();
+</script>"""
+
+
+def render_vals(script):
+    js = ('class DCLogic{constructor(){this.props={};this.state={}}setState(){}}\n' + script +
+          '\nprocess.stdout.write(JSON.stringify(new Component().renderVals(),(k,v)=>typeof v==="function"?undefined:v));')
+    return json.loads(subprocess.run(['node', '-e', js], capture_output=True, text=True, check=True).stdout)
+
+
+def lookup(path, ctx):
+    path = path.strip()
+    if path in ('true', 'false'):
+        return path == 'true'
+    cur = None
+    parts = path.split('.')
+    for scope in reversed(ctx):
+        if parts[0] in scope:
+            cur = scope[parts[0]]
+            break
+    else:
+        raise KeyError(path)
+    for p in parts[1:]:
+        cur = cur[p]
+    return cur
+
+
+def fill_holes(text, ctx):
+    return re.sub(r'\{\{\s*([\w.$]+)\s*\}\}', lambda m: html.escape(str(lookup(m.group(1), ctx)), quote=True), text)
+
+
+def render(tpl, ctx):
+    out = []
+    i = 0
+    while True:
+        j = tpl.find('<sc-for', i)
+        if j < 0:
+            out.append(fill_holes(tpl[i:], ctx))
+            break
+        out.append(fill_holes(tpl[i:j], ctx))
+        tag_end = tpl.index('>', j)
+        tag = tpl[j:tag_end + 1]
+        depth, k = 1, tag_end + 1
+        while depth:
+            o = tpl.find('<sc-for', k)
+            c = tpl.find('</sc-for>', k)
+            if o != -1 and o < c:
+                depth += 1
+                k = o + 7
+            else:
+                depth -= 1
+                k = c + 9
+        body = tpl[tag_end + 1:k - 9]
+        lst = lookup(re.search(r'list="\{\{\s*([\w.$]+)\s*\}\}"', tag).group(1), ctx)
+        name = re.search(r'as="(\w+)"', tag).group(1)
+        for idx, item in enumerate(lst):
+            out.append(render(body, ctx + [{name: item, '$index': idx}]))
+        i = k
+    return ''.join(out)
+
+
+def build_page(src_name, out_name, title):
+    s = open(os.path.join(SRC, src_name), encoding='utf-8').read()
+    helmet = re.search(r'<helmet>(.*?)</helmet>', s, re.S).group(1)
+    body = re.search(r'<x-dc>(.*?)</x-dc>', s, re.S).group(1)
+    body = re.sub(r'<helmet>.*?</helmet>', '', body, flags=re.S)
+    script = re.search(r'<script type="text/x-dc" data-dc-script[^>]*>(.*?)</script>', s, re.S).group(1)
+    vals = render_vals(script)
+    body = re.sub(r'\s(hint-[\w-]+|onClick)="[^"]*"', '', body)
+    body = render(body, [vals])
+    for blob, path in BLOBS.items():
+        body = body.replace(blob, path)
+    for src, (dst, _) in PAGES.items():
+        body = body.replace(f'href="{src}', f'href="{dst}')
+    body = body.replace('href="#" style="color: #862633; border-bottom', f'href="{out_name}" style="color: #862633; border-bottom')
+    body = body.replace('<a href="#" style="display: flex; align-items: center; gap: 12px">', '<a href="index.html" style="display: flex; align-items: center; gap: 12px">')
+    if src_name == 'Publications.dc.html':
+        body += PUB_FILTER_JS
+    page = f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{html.escape(title)}</title>
+<meta name="description" content="SuRe Lab (Superintelligence Representation Lab), School of Electrical Engineering, Korea University. Order learning, learned compression, and visual understanding.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+{helmet.strip()}
+</head>
+<body>
+{body.strip()}
+</body>
+</html>
+'''
+    assert '{{' not in page and '<sc-for' not in page and '.dc.html' not in page and '/_blob/' not in page, out_name
+    open(os.path.join(OUT, out_name), 'w', encoding='utf-8').write(page)
+
+
+os.makedirs(os.path.join(OUT, 'images'), exist_ok=True)
+for src, (dst, title) in PAGES.items():
+    build_page(src, dst, title)
+shutil.copy(os.path.join(ASSETS, 'cskim2.jpg'), os.path.join(OUT, 'images', 'cskim.jpg'))
+open(os.path.join(OUT, 'favicon.svg'), 'w').write(FAVICON)
+print('built', sorted(os.listdir(OUT)))

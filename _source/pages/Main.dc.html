@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MCL Home</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Noto+Sans+KR:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#17171B;text-decoration:none}a:hover{color:#862633}
+</style>
+</helmet>
+<div style="font-family: Inter, 'Noto Sans KR', sans-serif; color: #17171B; background: #FFFFFF; min-width: 0">
+
+<header style="border-bottom: 1px solid #E4E2DE">
+<div style="max-width: 1200px; margin: 0 auto; padding: 18px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="#" style="display: flex; align-items: center; gap: 12px">
+<svg width="38" height="38" viewBox="0 0 72 72" aria-hidden="true"><circle cx="12" cy="12" r="7" fill="#D6D3CE"></circle><circle cx="36" cy="12" r="7" fill="#D6D3CE"></circle><circle cx="60" cy="12" r="7" fill="#862633"></circle><circle cx="12" cy="36" r="7" fill="#D6D3CE"></circle><circle cx="36" cy="36" r="7" fill="#862633"></circle><circle cx="60" cy="36" r="7" fill="#862633"></circle><circle cx="12" cy="60" r="7" fill="#862633"></circle><circle cx="36" cy="60" r="7" fill="#862633"></circle><circle cx="60" cy="60" r="7" fill="#862633"></circle></svg>
+<span style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-weight: 700; font-size: 28px; letter-spacing: -1px; line-height: 1">SuRe Lab</span>
+<span style="font-size: 12px; color: #55555E">Superintelligence Representation Lab · Korea University</span>
+</span>
+</a>
+<nav style="display: flex; flex-wrap: wrap; gap: 28px; font-size: 15px; font-weight: 500">
+<a href="People.dc.html">People</a>
+<a href="Publications.dc.html">Publications</a>
+</nav>
+</div>
+</header>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 96px 32px 72px; display: flex; flex-direction: column; gap: 28px">
+<div style="font-size: 14px; font-weight: 600; color: #862633; letter-spacing: 1px; text-transform: uppercase">Korea University · Since 2005</div>
+<h1 style="margin: 0; font-size: 56px; line-height: 1.1; font-weight: 700; letter-spacing: -1.5px; max-width: 900px">Representations for superintelligence.</h1>
+<p style="margin: 0; font-size: 19px; line-height: 1.6; color: #44444C; max-width: 760px">SuRe Lab studies how AI should represent the world: ordered, compact, and ready for decisions. Our work spans order learning, learned compression for humans and machines, and visual understanding, published at CVPR, ICCV, ECCV, NeurIPS, ICML, and ICLR.</p>
+<div style="display: flex; flex-wrap: wrap; gap: 12px; padding-top: 8px">
+<a href="#research" style="background: #862633; color: #FFFFFF; padding: 14px 24px; font-weight: 600; font-size: 15px">Our research</a>
+<a href="Join.dc.html" style="border: 1px solid #17171B; padding: 13px 24px; font-weight: 600; font-size: 15px">Join us</a>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 0; margin-top: 40px; border-top: 1px solid #E4E2DE">
+<sc-for list="{{stats}}" as="s" hint-placeholder-count="4">
+<div style="padding: 24px 24px 0 0; display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 36px; font-weight: 700; letter-spacing: -1px">{{s.value}}</div>
+<div style="font-size: 14px; color: #55555E">{{s.label}}</div>
+</div>
+</sc-for>
+</div>
+</section>
+
+<section id="research" style="background: #F7F6F3; padding: 80px 0">
+<div style="max-width: 1200px; margin: 0 auto; padding: 0 32px; display: flex; flex-direction: column; gap: 40px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px">
+<h2 style="margin: 0; font-size: 36px; letter-spacing: -0.8px">Research</h2>
+</div>
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px">
+<sc-for list="{{areas}}" as="a" hint-placeholder-count="3">
+<div style="background: #FFFFFF; border: 1px solid #E4E2DE; padding: 28px; display: flex; flex-direction: column; gap: 14px">
+<h3 style="margin: 0; font-size: 20px; font-weight: 600">{{a.name}}</h3>
+<p style="margin: 0; font-size: 15px; line-height: 1.6; color: #44444C">{{a.desc}}</p>
+<div style="margin-top: auto; padding-top: 12px; border-top: 1px solid #EEECE8; font-size: 13px; line-height: 1.6; color: #55555E">{{a.papers}}</div>
+</div>
+</sc-for>
+</div>
+</div>
+</section>
+
+<section id="publications" style="max-width: 1200px; margin: 0 auto; padding: 80px 32px; display: flex; flex-direction: column; gap: 32px">
+<div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 16px">
+<h2 style="margin: 0; font-size: 36px; letter-spacing: -0.8px">Recent publications</h2>
+<a href="Publications.dc.html" style="font-weight: 600; font-size: 15px; color: #862633">All publications →</a>
+</div>
+<div style="display: flex; flex-direction: column">
+<sc-for list="{{pubs}}" as="p" hint-placeholder-count="6">
+<div style="display: flex; flex-wrap: wrap; gap: 8px 32px; padding: 22px 0; border-top: 1px solid #E4E2DE">
+<div style="flex: 0 0 160px; font-size: 13px; font-weight: 600; color: #862633; padding-top: 3px">{{p.venue}}</div>
+<div style="flex: 999 1 560px; min-width: 0; display: flex; flex-direction: column; gap: 6px">
+<div style="font-size: 17px; font-weight: 600; line-height: 1.4">{{p.title}}</div>
+<div style="font-size: 14px; color: #55555E">{{p.authors}}</div>
+</div>
+</div>
+</sc-for>
+</div>
+</section>
+
+<section id="join" style="border-top: 1px solid #E4E2DE">
+<div style="max-width: 1200px; margin: 0 auto; padding: 80px 32px; display: flex; flex-wrap: wrap; gap: 32px">
+<div style="flex: 1 1 480px; min-width: 0; background: #862633; color: #FFFFFF; padding: 40px; display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-size: 32px; letter-spacing: -0.5px">Join us</h2>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #F3E6EA">We are recruiting M.S. and Ph.D. students for September 2027 and March 2028. We look for motivated students who want to tackle challenging problems.</p>
+<a href="Join.dc.html" style="align-self: flex-start; margin-top: auto; background: #FFFFFF; color: #862633; padding: 14px 24px; font-weight: 600; font-size: 15px">Read before you apply →</a>
+</div>
+<div style="flex: 1 1 400px; min-width: 0; display: flex; flex-direction: column; gap: 16px">
+<h2 style="margin: 0; font-size: 32px; letter-spacing: -0.5px">This week's seminar</h2>
+<div style="border: 1px solid #17171B; padding: 28px; display: flex; flex-direction: column; gap: 14px; flex: 1 1 auto">
+<span style="font-size: 13px; font-weight: 600; color: #862633; text-transform: uppercase; letter-spacing: 0.8px">Fri, Nov 27 · 4:00–5:30 PM · Engineering Building 448</span>
+<div style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-size: 13px; color: #55555E">Paper seminar · Seunggyun Woo</span>
+<span style="font-size: 18px; font-weight: 600; line-height: 1.4">Few-Shot Image Quality Assessment via Adaptation of Vision-Language Models (ICCV 2025)</span>
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px; padding-top: 12px; border-top: 1px solid #E4E2DE">
+<span style="font-size: 13px; color: #55555E">Research seminar</span>
+<span style="font-size: 16px; font-weight: 500">Junhyeok Heo, Youngeon Kim</span>
+</div>
+</div>
+<a href="Seminars.dc.html" style="font-weight: 600; font-size: 15px; color: #862633">Recent seminars →</a>
+</div>
+</div>
+</section>
+
+<footer style="background: #17171B; color: #B9B9C0">
+<div style="max-width: 1200px; margin: 0 auto; padding: 22px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px; font-size: 13px; line-height: 1.6">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px; color: #FFFFFF">
+<svg width="26" height="26" viewBox="0 0 72 72" aria-hidden="true"><circle cx="12" cy="12" r="7" fill="#4A4A52"></circle><circle cx="36" cy="12" r="7" fill="#4A4A52"></circle><circle cx="60" cy="12" r="7" fill="#C23B4F"></circle><circle cx="12" cy="36" r="7" fill="#4A4A52"></circle><circle cx="36" cy="36" r="7" fill="#C23B4F"></circle><circle cx="60" cy="36" r="7" fill="#C23B4F"></circle><circle cx="12" cy="60" r="7" fill="#C23B4F"></circle><circle cx="36" cy="60" r="7" fill="#C23B4F"></circle><circle cx="60" cy="60" r="7" fill="#C23B4F"></circle></svg>
+<span style="font-weight: 700; font-size: 19px; letter-spacing: -0.6px">SuRe Lab</span>
+</a>
+<span style="flex: 1 1 420px; min-width: 0">#405, New Engineering Building, Korea University, 145 Anam-ro, Seongbuk-gu, Seoul 02841 · Tel +82-2-3290-3806</span>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 20px">
+<a href="http://www.korea.ac.kr/" style="color: #B9B9C0">Korea University</a>
+<a href="http://ee.korea.ac.kr/" style="color: #B9B9C0">School of Electrical Engineering</a>
+</div>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2800}}'>
+class Component extends DCLogic {
+renderVals() {
+return {
+stats: [
+{ value: '360+', label: 'Journal and conference papers' },
+{ value: '26', label: 'Ph.D. graduates' },
+{ value: '5', label: 'Alumni in faculty positions' },
+{ value: '13', label: 'Current graduate students' }
+],
+areas: [
+{ name: 'Order Learning', desc: 'Estimating ranks by comparing instances with references of known ranks, with applications to age estimation and image quality assessment.', papers: 'OL (ICLR 2020) · GOL (NeurIPS 2022) · UOL (ICLR 2024) · ConOrd, SOL (ICML 2026)' },
+{ name: 'Learned Compression', desc: 'Learned image and video codecs for humans, and compact representations that let AI models understand visual data from fewer tokens.', papers: 'DPICT (CVPR 2022) · CTC (CVPR 2023) · BLI (NeurIPS 2026)' },
+{ name: 'Visual Understanding', desc: 'Image quality assessment, enhancement, frame interpolation, lane detection, depth estimation, and segmentation.', papers: 'BiFormer (CVPR 2023) · MFP, MSPN (CVPR 2024) · CanonCGT (CVPR 2026)' }
+],
+pubs: [
+{ venue: 'NeurIPS 2026', title: 'Bound-conditioned latent inference for progressive image compression', authors: 'Jaeseok Jang*, Seungmin Jeon*, Kwang Pyo Choi, Chang-Su Kim' },
+{ venue: 'ICML 2026', title: 'Stochastic order learning: an approach to rank estimation using noisy data', authors: 'Chaewon Lee, Seon-Ho Lee, Chang-Su Kim' },
+{ venue: 'ICML 2026', title: 'Contrastive order learning: A general framework for ordinal regression', authors: 'Chaewon Lee, Beomjun Shim, Kwang-Pyo Choi, Chang-Su Kim' },
+{ venue: 'CVPR 2026 · Highlight', title: 'Frequency-domain Manipulation for Face Obfuscation', authors: 'Jintae Kim, Keunsoo Ko, Chang-Su Kim' },
+{ venue: 'CVPR 2026', title: 'CanonCGT: Reference-Based Color Grading via Canonical Pivot Representation', authors: 'Jinwon Ko, Keunsoo Ko, Chang-Su Kim' },
+{ venue: 'CVPR Findings 2026', title: 'GATE: Gaussian-Attentive Transformer for Uncertainty-Aware Age Estimation', authors: 'Chaewon Lee, Jun-Hyeok Heo, Chang-Su Kim' }
+]
+};
+}
+}
+</script>
+</body>
+</html>

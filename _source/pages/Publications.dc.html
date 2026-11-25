@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>SuRe Lab Publications</title>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Noto+Sans+KR:wght@400;500;700&amp;display=swap">
+<style>
+body{margin:0}
+a{color:#17171B;text-decoration:none}a:hover{color:#862633}
+</style>
+</helmet>
+<div style="font-family: Inter, 'Noto Sans KR', sans-serif; color: #17171B; background: #FFFFFF; min-width: 0">
+
+<header style="border-bottom: 1px solid #E4E2DE">
+<div style="max-width: 1200px; margin: 0 auto; padding: 18px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 12px">
+<svg width="38" height="38" viewBox="0 0 72 72" aria-hidden="true"><circle cx="12" cy="12" r="7" fill="#D6D3CE"></circle><circle cx="36" cy="12" r="7" fill="#D6D3CE"></circle><circle cx="60" cy="12" r="7" fill="#862633"></circle><circle cx="12" cy="36" r="7" fill="#D6D3CE"></circle><circle cx="36" cy="36" r="7" fill="#862633"></circle><circle cx="60" cy="36" r="7" fill="#862633"></circle><circle cx="12" cy="60" r="7" fill="#862633"></circle><circle cx="36" cy="60" r="7" fill="#862633"></circle><circle cx="60" cy="60" r="7" fill="#862633"></circle></svg>
+<span style="display: flex; flex-direction: column; gap: 4px">
+<span style="font-weight: 700; font-size: 28px; letter-spacing: -1px; line-height: 1">SuRe Lab</span>
+<span style="font-size: 12px; color: #55555E">Superintelligence Representation Lab · Korea University</span>
+</span>
+</a>
+<nav style="display: flex; flex-wrap: wrap; gap: 28px; font-size: 15px; font-weight: 500">
+<a href="People.dc.html">People</a>
+<a href="#" style="color: #862633; border-bottom: 2px solid #862633; padding-bottom: 2px">Publications</a>
+</nav>
+</div>
+</header>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 72px 32px 24px; display: flex; flex-direction: column; gap: 20px">
+<h1 style="margin: 0; font-size: 48px; letter-spacing: -1.2px">Publications</h1>
+<div style="display: flex; flex-wrap: wrap; gap: 10px">
+<sc-for list="{{tabs}}" as="t" hint-placeholder-count="5">
+<button onClick="{{t.pick}}" data-filter="{{t.key}}" style="font-family: inherit; font-size: 14px; font-weight: 600; padding: 10px 18px; min-height: 44px; cursor: pointer; border: 1px solid {{t.border}}; background: {{t.bg}}; color: {{t.fg}}">{{t.label}}</button>
+</sc-for>
+</div>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 16px 32px 72px; display: flex; flex-direction: column; gap: 40px">
+<sc-for list="{{years}}" as="y" hint-placeholder-count="2">
+<div data-year="{{y.year}}" style="display: flex; flex-wrap: wrap; gap: 16px 40px">
+<h2 style="flex: 0 0 120px; margin: 0; font-size: 28px; color: #862633; letter-spacing: -0.5px">{{y.year}}</h2>
+<div style="flex: 999 1 640px; min-width: 0; display: flex; flex-direction: column">
+<sc-for list="{{y.items}}" as="p" hint-placeholder-count="5">
+<div data-kind="{{p.k}}" style="display: flex; gap: 20px; padding: 16px 0; border-top: 1px solid #E4E2DE">
+<span style="flex: 0 0 56px; font-size: 13px; font-weight: 600; color: #55555E; padding-top: 2px">{{p.no}}</span>
+<div style="flex: 1 1 auto; min-width: 0; display: flex; flex-direction: column; gap: 4px; font-size: 15px; line-height: 1.5">
+<span style="color: #44444C">{{p.authors}}</span>
+<span style="font-weight: 600">{{p.title}}</span>
+<span style="color: #55555E; font-style: italic">{{p.venue}}</span>
+</div>
+</div>
+</sc-for>
+</div>
+</div>
+</sc-for>
+<p style="margin: 0; font-size: 15px; color: #55555E">For the complete list, see <a href="https://scholar.google.co.kr/citations?user=KOdKwNsAAAAJ&amp;hl=en" style="color: #862633; font-weight: 600">Google Scholar</a>.</p>
+</section>
+
+<footer style="background: #17171B; color: #B9B9C0">
+<div style="max-width: 1200px; margin: 0 auto; padding: 22px 32px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px 32px; font-size: 13px; line-height: 1.6">
+<a href="Main.dc.html" style="display: flex; align-items: center; gap: 10px; color: #FFFFFF">
+<svg width="26" height="26" viewBox="0 0 72 72" aria-hidden="true"><circle cx="12" cy="12" r="7" fill="#4A4A52"></circle><circle cx="36" cy="12" r="7" fill="#4A4A52"></circle><circle cx="60" cy="12" r="7" fill="#C23B4F"></circle><circle cx="12" cy="36" r="7" fill="#4A4A52"></circle><circle cx="36" cy="36" r="7" fill="#C23B4F"></circle><circle cx="60" cy="36" r="7" fill="#C23B4F"></circle><circle cx="12" cy="60" r="7" fill="#C23B4F"></circle><circle cx="36" cy="60" r="7" fill="#C23B4F"></circle><circle cx="60" cy="60" r="7" fill="#C23B4F"></circle></svg>
+<span style="font-weight: 700; font-size: 19px; letter-spacing: -0.6px">SuRe Lab</span>
+</a>
+<span style="flex: 1 1 420px; min-width: 0">#405, New Engineering Building, Korea University, 145 Anam-ro, Seongbuk-gu, Seoul 02841 · Tel +82-2-3290-3806</span>
+<div style="display: flex; flex-wrap: wrap; gap: 6px 20px">
+<a href="http://www.korea.ac.kr/" style="color: #B9B9C0">Korea University</a>
+<a href="http://ee.korea.ac.kr/" style="color: #B9B9C0">School of Electrical Engineering</a>
+</div>
+</div>
+</footer>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":2050}}'>
+class Component extends DCLogic {
+renderVals() {
+const sel = (this.state && this.state.sel) || 'all';
+const J = 'jour', C = 'conf';
+const all = [
+{ y: '2026', k: C, no: 'C248', authors: 'Jaeseok Jang*, Seungmin Jeon*, Kwang Pyo Choi, and Chang-Su Kim', title: 'Bound-conditioned latent inference for progressive image compression', venue: 'NeurIPS, Sydney, Australia, Dec. 2026' },
+{ y: '2026', k: J, no: 'J108', authors: 'Seunggyun Woo and Chang-Su Kim', title: 'SVT: Sequential video transformer for video inpainting with masked motion propagation', venue: 'J. Vis. Commun. Image Represent., vol. 120, Sep. 2026' },
+{ y: '2026', k: C, no: 'C247', authors: 'Chaewon Lee, Seon-Ho Lee, and Chang-Su Kim', title: 'Stochastic order learning: an approach to rank estimation using noisy data', venue: 'ICML, Seoul, Korea, Jul. 2026' },
+{ y: '2026', k: C, no: 'C246', authors: 'Chaewon Lee, Beomjun Shim, Kwang-Pyo Choi, and Chang-Su Kim', title: 'Contrastive order learning: A general framework for ordinal regression', venue: 'ICML, Seoul, Korea, Jul. 2026' },
+{ y: '2026', k: C, no: 'C245', authors: 'Jintae Kim, Keunsoo Ko, and Chang-Su Kim', title: 'Frequency-domain Manipulation for Face Obfuscation', venue: 'CVPR, Denver, Colorado, Jun. 2026 (Highlight)' },
+{ y: '2026', k: C, no: 'C244', authors: 'Chaewon Lee, Jun-Hyeok Heo, and Chang-Su Kim', title: 'GATE: Gaussian-Attentive Transformer for Uncertainty-Aware Age Estimation', venue: 'CVPR Findings Workshop, Denver, Colorado, Jun. 2026' },
+{ y: '2026', k: C, no: 'C243', authors: 'Jinwon Ko, Keunsoo Ko, and Chang-Su Kim', title: 'CanonCGT: Reference-Based Color Grading via Canonical Pivot Representation', venue: 'CVPR, Denver, Colorado, Jun. 2026' },
+{ y: '2026', k: J, no: 'J107', authors: 'Jinwon Ko, Keunsoo Ko, Hanul Kim, and Chang-Su Kim', title: 'LUTFormer: Lookup table transformer for image enhancement', venue: 'Neurocomputing, vol. 660, Jan. 2026' },
+{ y: '2025', k: C, no: 'C242', authors: 'Jaeseok Jang and Chang-Su Kim', title: 'Flow-Guided Consistent Video Depth Estimation for Cross-Dataset Generalization', venue: 'APSIPA ASC, Singapore, Oct. 2025' },
+{ y: '2025', k: C, no: 'C241', authors: 'Hanbin Jeon and Chang-Su Kim', title: 'OpenLane-V2: A Diverse Extension of OpenLane-V Based on Low-Rank Representation of Road Lanes', venue: 'ICIP, Sep. 2025' },
+{ y: '2025', k: J, no: 'J106', authors: 'Jaeseok Jang, Dahyun Kim, Dongkwon Jin, and Chang-Su Kim', title: 'Contour-based object forecasting for autonomous driving', venue: 'J. Vis. Commun. Image Represent., vol. 106, Feb. 2025' },
+{ y: '2025', k: J, no: 'J105', authors: 'Keunsoo Ko, Seunggyun Woo, and Chang-Su Kim', title: 'Error-mask-adaptive dynamic filtering for image inpainting', venue: 'IEEE Access, vol. 13, pp. 18403-18417, Jan. 2025' }
+];
+const shown = all.filter(p => sel === 'all' || p.k === sel);
+const years = ['2026', '2025'].map(y => ({ year: y, items: shown.filter(p => p.y === y) })).filter(g => g.items.length);
+const defs = [['all', 'All'], [J, 'International Journals (108)'], [C, 'International Conferences (248)']];
+const tabs = defs.map(([k, label]) => ({ key: k, label, pick: () => this.setState({ sel: k }), bg: sel === k ? '#17171B' : '#FFFFFF', fg: sel === k ? '#FFFFFF' : '#17171B', border: sel === k ? '#17171B' : '#D6D3CE' }));
+return { tabs, years };
+}
+}
+</script>
+</body>
+</html>
