@@ -16,8 +16,8 @@ PAGES = {  # source -> (output file, page title)
 BLOBS = {
     '/_blob/eb78a1e16175a13c8873a8f7041376aa': 'images/cskim.jpg',
     '/_blob/83b91072d1403df0a48cb584c65ba301': 'images/sel/bli.jpg',
-    '/_blob/f8081a5c8155b7d5d32335c3f7b65d48': 'images/sel/conord.jpg',
-    '/_blob/070d6696b8fed7cc55487f12f725c32b': 'images/sel/gol.jpg',
+    '/_blob/ccb93590fcaeae9dae3b5b572996fd34': 'images/sel/conord.jpg',
+    '/_blob/e40b11f7ef250d51daa900c0d772d3e8': 'images/sel/gol.jpg',
     '/_blob/2db5780d7e32c1e1e9c30a72d63029c8': 'images/sel/dpict.jpg',
     '/_blob/fd29455553f5810313fd228ea9e24e44': 'images/sel/ol.jpg',
     '/_blob/f974175da39b420d18efb99c63e7a00e': 'images/sel/brs.jpg',
