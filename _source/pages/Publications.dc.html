@@ -36,6 +36,24 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 <h1 style="margin: 0; font-size: 48px; letter-spacing: -1.2px">Publications</h1>
 </section>
 
+<section style="max-width: 1200px; margin: 0 auto; padding: 8px 32px 56px; display: flex; flex-direction: column; gap: 20px">
+<h2 style="margin: 0; font-size: 24px; letter-spacing: -0.4px">Selected papers</h2>
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); gap: 20px">
+<sc-for list="{{selected}}" as="s" hint-placeholder-count="6">
+<div style="display: flex; flex-direction: column; gap: 10px; padding: 24px; background: #FFFFFF; border: 1px solid #E4E2DE; border-top: 4px solid #862633">
+<span style="font-size: 13px; font-weight: 700; color: #862633; letter-spacing: 0.3px">{{s.venue}}</span>
+<span style="font-size: 17px; font-weight: 600; line-height: 1.4">{{s.title}}</span>
+<span style="font-size: 14px; line-height: 1.5; color: #55555E">{{s.authors}}</span>
+<span style="margin-top: auto; padding-top: 8px; font-size: 13px; color: #44444C; border-top: 1px solid #EEECE8">{{s.topic}}</span>
+</div>
+</sc-for>
+</div>
+</section>
+
+<section style="max-width: 1200px; margin: 0 auto; padding: 0 32px 8px">
+<h2 style="margin: 0; padding-top: 40px; border-top: 2px solid #17171B; font-size: 24px; letter-spacing: -0.4px">All publications</h2>
+</section>
+
 <section style="max-width: 1200px; margin: 0 auto; padding: 16px 32px 72px; display: flex; flex-direction: column; gap: 40px">
 <sc-for list="{{years}}" as="y" hint-placeholder-count="2">
 <div data-year="{{y.year}}" style="display: flex; flex-wrap: wrap; gap: 16px 40px">
@@ -72,7 +90,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":38000}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":38800}}'>
 class Component extends DCLogic {
 renderVals() {
 const J = 'jour', C = 'conf';
@@ -434,9 +452,17 @@ const all = [
 {"y": "1996", "k": "conf", "no": "C2", "authors": "Chang-Su Kim, Rin-Chul Kim, and Sang-Uk Lee", "title": "Fractal coding of video sequence using CPM and NCIM", "venue": "International Workshop on New Video Media Technology, Seoul, Korea, Mar. 1996"},
 {"y": "1995", "k": "conf", "no": "C1", "authors": "Chang-Su Kim, Rin-Chul Kim, and Sang-Uk Lee", "title": "Novel fractal image compression method with non-iterative decoder", "venue": "IEEE ICIP, Washington D.C., Oct. 1995"}
 ];
+const selected = [
+{ venue: 'NeurIPS 2026', title: 'Bound-conditioned latent inference for progressive image compression', authors: 'Jaeseok Jang*, Seungmin Jeon*, Kwang Pyo Choi, and Chang-Su Kim', topic: 'Learned compression' },
+{ venue: 'ICML 2026', title: 'Stochastic order learning: an approach to rank estimation using noisy data', authors: 'Chaewon Lee, Seon-Ho Lee, and Chang-Su Kim', topic: 'Order learning' },
+{ venue: 'NeurIPS 2022', title: 'Geometric order learning for rank estimation', authors: 'Seon-Ho Lee, Nyeong Ho Shin, and Chang-Su Kim', topic: 'Order learning' },
+{ venue: 'CVPR 2022 · Oral', title: 'DPICT: Deep progressive image compression using trit-planes', authors: 'Jae-Han Lee, Seungmin Jeon, Kwang Pyo Choi, Yongpo Park, and Chang-Su Kim', topic: 'Learned compression' },
+{ venue: 'ICLR 2020', title: 'Order learning and its application to age estimation', authors: 'Kyungsun Lim, Nyeong-Ho Shin, Young-Yoon Lee, and Chang-Su Kim', topic: 'Order learning' },
+{ venue: 'CVPR 2019', title: 'Interactive image segmentation via backpropagating refinement scheme', authors: 'Won-Dong Jang and Chang-Su Kim', topic: 'Visual understanding' }
+];
 const shown = all;
 const years = [...new Set(all.map(p => p.y))].map(y => ({ year: y, items: shown.filter(p => p.y === y) })).filter(g => g.items.length);
-return { years };
+return { selected, years };
 }
 }
 </script>
