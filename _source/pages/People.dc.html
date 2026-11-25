@@ -124,7 +124,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 </sc-for>
 </div>
 <h3 style="margin: 24px 0 0; font-size: 15px; font-weight: 600; color: #55555E">Ph.D. graduates</h3>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); column-gap: 48px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(480px, 100%), 1fr)); column-gap: 48px">
 <sc-for list="{{alumni}}" as="a" hint-placeholder-count="26">
 <div style="display: flex; gap: 16px; padding: 12px 0; border-bottom: 1px solid #EEECE8; font-size: 14px">
 <span style="flex: 0 0 44px; color: #55555E">{{a.y}}</span>
@@ -134,7 +134,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 </sc-for>
 </div>
 <h3 style="margin: 24px 0 0; font-size: 15px; font-weight: 600; color: #55555E">M.S. graduates</h3>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); column-gap: 48px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(480px, 100%), 1fr)); column-gap: 48px">
 <sc-for list="{{msAlumni}}" as="a" hint-placeholder-count="16">
 <div style="display: flex; gap: 16px; padding: 12px 0; border-bottom: 1px solid #EEECE8; font-size: 14px">
 <span style="flex: 0 0 44px; color: #55555E">{{a.y}}</span>
@@ -144,7 +144,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 </sc-for>
 </div>
 <h3 style="margin: 24px 0 0; font-size: 15px; font-weight: 600; color: #55555E">Visitors</h3>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(480px, 1fr)); column-gap: 48px">
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(480px, 100%), 1fr)); column-gap: 48px">
 <sc-for list="{{visitors}}" as="a" hint-placeholder-count="1">
 <div style="display: flex; gap: 16px; padding: 12px 0; border-bottom: 1px solid #EEECE8; font-size: 14px">
 <span style="flex: 0 0 44px; color: #55555E">{{a.y}}</span>
@@ -161,7 +161,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 <svg width="26" height="26" viewBox="0 0 72 72" aria-hidden="true"><circle cx="12" cy="12" r="7" fill="#4A4A52"></circle><circle cx="36" cy="12" r="7" fill="#4A4A52"></circle><circle cx="60" cy="12" r="7" fill="#C23B4F"></circle><circle cx="12" cy="36" r="7" fill="#4A4A52"></circle><circle cx="36" cy="36" r="7" fill="#C23B4F"></circle><circle cx="60" cy="36" r="7" fill="#C23B4F"></circle><circle cx="12" cy="60" r="7" fill="#C23B4F"></circle><circle cx="36" cy="60" r="7" fill="#C23B4F"></circle><circle cx="60" cy="60" r="7" fill="#C23B4F"></circle></svg>
 <span style="font-weight: 700; font-size: 19px; letter-spacing: -0.6px">SuRe Lab</span>
 </a>
-<span style="flex: 1 1 420px; min-width: 0">#405, New Engineering Building, Korea University, 145 Anam-ro, Seongbuk-gu, Seoul 02841 · Tel +82-2-3290-3806</span>
+<span style="flex: 1 1 420px; min-width: 0">#405, New Engineering Building, Korea University, 145 Anam-ro, Seongbuk-gu, Seoul 02841 · <span style="white-space: nowrap">Tel +82-2-3290-3806</span></span>
 <div style="display: flex; flex-wrap: wrap; gap: 6px 20px">
 <a href="http://www.korea.ac.kr/" style="color: #B9B9C0">Korea University</a>
 <a href="http://ee.korea.ac.kr/" style="color: #B9B9C0">School of Electrical Engineering</a>
