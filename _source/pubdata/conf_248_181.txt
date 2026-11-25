@@ -1,0 +1,68 @@
+[248] | 2026 | Jaeseok Jang*, Seungmin Jeon*, Kwang Pyo Choi, and Chang-Su Kim | Bound-conditioned latent inference for progressive image compression | in Proc. NeurIPS, Sydney, Australia, Dec. 2026. (* Equal contribution)
+[247] | 2026 | Chaewon Lee, Seon-Ho Lee, and Chang-Su Kim | Stochastic order learning: an approach to rank estimation using noisy data | in Proc. ICML, Seoul, Korea, Jul. 2026.
+[246] | 2026 | Chaewon Lee, Beomjun Shim, Kwang-Pyo Choi, and Chang-Su Kim | Contrastive order learning: A general framework for ordinal regression | in Proc. ICML, Seoul, Korea, Jul. 2026.
+[245] | 2026 | Jintae Kim, Keunsoo Ko, and Chang-Su Kim | Frequency-domain Manipulation for Face Obfuscation | in Proc. CVPR, Denver, Colorado, Jun. 2026. (Highlight presentation)
+[244] | 2026 | Chaewon Lee, Jun-Hyeok Heo, and Chang-Su Kim | GATE: Gaussian-Attentive Transformer for Uncertainty-Aware Age Estimation | in Proc. CVPR Findings Workshop, Denver, Colorado, Jun. 2026.
+[243] | 2026 | Jinwon Ko, Keunsoo Ko, and Chang-Su Kim | CanonCGT: Reference-Based Color Grading via Canonical Pivot Representation | in Proc. CVPR, Denver, Colorado, Jun. 2026.
+[242] | 2025 | Jaeseok Jang and Chang-Su Kim | Flow-Guided Consistent Video Depth Estimation for Cross-Dataset Generalization | in Proc. APSIPA ASC, Shangri-la, Singapore, Oct. 2025.
+[241] | 2025 | Hanbin Jeon and Chang-Su Kim | OpenLane-V2: A Diverse Extension of OpenLane-V Based on Low-Rank Representation of Road Lanes | in Proc. ICIP, Sep. 2025.
+[240] | 2024 | Dongkwon Jin and Chang-Su Kim | OMR: Occlusion-Aware Memory-Based Refinement for Video Lane Detection | in Proc. ECCV, Milano, Italy, Sep. 2024.
+[239] | 2024 | Jintae Kim, Seungwon Yang, Seong-Gyun Jeong, and Chang-Su Kim | Forbes: Face Obfuscation Rendering via Backpropagation Refinement Scheme | in Proc. ECCV, Milano, Italy, Sep. 2024.
+[238] | 2024 | Jinyoung Jun, Jae-Han Lee, and Chang-Su Kim | Masked Spatial Propagation Network for Sparsity-Adaptive Depth Refinement | in Proc. CVPR, Seattle, Washington, Jun. 2024.
+[237] | 2024 | Chaewon Lee, Seon-Ho Lee, and Chang-Su Kim | MFP: Making Full Use of Probability Maps for Interactive Image Segmentation | in Proc. CVPR, Seattle, Washington, Jun. 2024.
+[236] | 2024 | Nyeong-Ho Shin, Seon-Ho Lee, and Chang-Su Kim | Blind Image Quality Assessment Based on Geometric Order Learning | in Proc. CVPR, Seattle, Washington, Jun. 2024.
+[235] | 2024 | Jinwon Ko, Dongkwon Jin, and Chang-Su Kim | Semantic Line Combination Detector | in Proc. CVPR, Seattle, Washington, Jun. 2024.
+[234] | 2024 | Seon-Ho Lee, Nyeong-Ho Shin, and Chang-Su Kim | Unsupervised Order Learning | in Proc. ICLR, Vienna, Austria, May. 2024.
+[233] | 2023 | Yuk Heo, Yeong Jun Koh, and Chang-Su Kim | Context-Aware Seam Restoration for Image Extension | in Proc. IEEE VCIP, Jeju, Korea, Dec. 2023.
+[232] | 2023 | Chaewon Lee, Won-Dong Jang, and Chang-Su Kim | Implementation and Analysis on Backpropagating Refinement Scheme for Interactive Image Segmentation | in Proc. APSIPA ASC, Taipei, Taiwan, Nov. 2023.
+[231] | 2023 | Keunsoo Ko and Chang-Su Kim | Continuously Masked Transformer for Image Inpainting | in Proc. ICCV, Paris, France, Oct. 2023.
+[230] | 2023 | Dongkwon Jin, Dahyun Kim, and Chang-Su Kim | Recursive Video Lane Detection | in Proc. ICCV, Paris, France, Oct. 2023.
+[229] | 2023 | Seungmin Jeon, Kwang-Pyo Choi, Youngo Park, and Chang-Su Kim | Context-based Trit-Plane Coding for Progressive Image Compression | in Proc. CVPR, Vancouver, British Columbia, Jun. 2023.
+[228] | 2023 | Junheum Park, Jintae Kim, and Chang-Su Kim | BiFormer: Learning Bilateral Motion Estimation via Bilateral Transformer for 4k Video Frame Interpolation | in Proc. CVPR, Vancouver, British Columbia, Jun. 2023.
+[227] | 2022 | Seon-Ho Lee, Nyeong Ho Shin, and Chang-Su Kim | Geometric Order Learning for Rank Estimation | in NeurIPS, New Orleans, Louisiana, Nov. 2022.
+[226] | 2022 | Jintae Kim, Junheum Park, and Chang-Su Kim | Fast Asymmetric Bilateral Motion Estimation for Video Frame Interpolation | in Proc. APSIPA ASC, Chiang Mai, Thailand, Nov. 2022.
+[225] | 2022 | Jinwon Ko, Shin Nyeong Ho, Seon-Ho Lee, and Chang-Su Kim | Unified Angle Adjustment Network for Image Composition Enhancement | in Proc. APSIPA ASC, Chiang Mai, Thailand, Nov. 2022.
+[224] | 2022 | Seon-Ho Lee and Chang-Su Kim | Order Learning Using Partially Ordered Data via Chainization | in Proc. ECCV, Tel Aviv, Israel, Oct. 2022.
+[223] | 2022 | Jinyoung Jun, Jae-Han Lee, Chul Lee, and Chang-Su Kim | Depth Map Decomposition for Monocular Depth Estimation | in Proc. ECCV, Tel Aviv, Israel, Oct. 2022.
+[222] | 2022 | Seunggyun Woo, Junheum Park, and Chang-Su Kim | Future frame extrapolation using future cost volume | in Proc. ICIP, Bordeaux, France, Oct. 2022.
+[221] | 2022 | Nyeong Ho Shin, Seon-Ho Lee, and Chang-Su Kim | Moving Window Regression: A Novel Approach to Ordinal Regression | in Proc. CVPR, New Orleans, Louisiana, June. 2022. (Oral presentation)
+[220] | 2022 | Dongkwon Jin, Wonhui Park, Seong-Gyun Jeong, Heeyeon Kwon, and Chang-Su Kim | Eigenlanes: Data-Driven Lane Descriptors for Structually Diverse Lanes | in Proc. CVPR, New Orleans, Louisiana, June. 2022.
+[219] | 2022 | Wonhui Park, Dongkwon Jin, and Chang-Su Kim | Eigencontours: Novel Contour Descriptors Based on Low-Rank Approximation | in Proc. CVPR, New Orleans, Louisiana, June. 2022. (Oral presentation)
+[218] | 2022 | Jae-Han Lee, Seungmin Jeon, Kwang Pyo Choi, Yongpo Park, and Chang-Su Kim | DPICT: Deep Progressive Image Compression Using Trit-Planes | in Proc. CVPR, New Orleans, Louisiana, June. 2022. (Oral presentation)
+[217] | 2021 | Jintae Kim, Junheum Park, Hwan Choi, and Chang-Su Kim | Facial Video Frame Interpolation Combining Symmetric and Asymmetric Motions | in Proc. APSIPA ASC 2021, Tokyo, Japan, Dec. 2021.
+[216] | 2021 | Jae-Han Lee, Chul Lee, and Chang-Su Kim | Learning Multiple Pixelwise Tasks Based on Loss Scale Balancing | in Proc. ICCV, Virtual, Oct. 2021.
+[215] | 2021 | Han-Ul Kim, Su-min Choi, Chang-Su Kim, and Yeong Jun Koh | Representative Color Transform for Image Enhancement | in Proc. ICCV, Virtual, Oct. 2021.
+[214] | 2021 | Junheum Park, Chul Lee, and Chang-Su Kim | Asymmetric Bilateral Motion Estimation for Video Frame Interpolation | in Proc. ICCV, Virtual, Oct. 2021.
+[213] | 2021 | Dongkwon Jin, Wonhui Park, Seong-Gyun Jeong, and Chang-Su Kim | Harmonious Semantic Line Detection via Maximal Weight Clique Selection | in Proc. CVPR, Nashville, Tennessee, June. 2021.
+[212] | 2021 | Yuk Heo, Yeong Jun Koh, and Chang-Su Kim | Guided Interactive Video Object Segmentation Using Reliability-Based Attention Maps | in Proc. CVPR, Nashville, Tennessee, June. 2021. (Oral presentation)
+[211] | 2021 | Seon-Ho Lee and Chang-Su Kim | Deep Repulsive Clustering of Ordered Data Based on Order-Identity Decomposition | in Proc. ICLR, Vienna, Austria, May. 2021.
+[210] | 2020 | Jinyoung Jun, Jae-Han Lee, and Chang-Su Kim | Human Pose Estimation Using Skeletal Heatmaps | in Proc. APSIPA ASC 2020, Auchland, New Zealand, Dec. 2020.
+[209] | 2020 | Ji-Soo Kim, Keunsoo Ko, and Chang-Su Kim | Adaptive Lattice-Aware Image Demosaicking Using Global and Local Information | in Proc. ICIP, Abu Dhabi, United Arab Emirates, Oct. 2020.
+[208] | 2020 | Soo-Kyeong Kang, Chul Lee, and Chang-Su Kim | Optimized Color Contrast Enhancement for Dichromats Using Local and Global Contrast | in Proc. ICIP, Abu Dhabi, United Arab Emirates, Oct. 2020.
+[207] | 2020 | Jae-Han Lee and Chang-Su Kim | Multi-Loss Rebalancing Algorithm for Monocular Depth Estimation | in Proc. ECCV, Glasgow, United Kingdom, Aug. 2020.
+[206] | 2020 | Junheum Park, Keunsoo Ko, Chul Lee, and Chang-Su Kim | BMBC:Bilateral Motion Estimation with Bilateral Cost Volume for Video Interpolation | in Proc. ECCV, Glasgow, United Kingdom, Aug. 2020.
+[205] | 2020 | Han-Ul Kim, Yeong Jun Koh, and Chang-Su Kim | Global and Local Enhancement Networks For Paired and Unpaired Image Enhancement | in Proc. ECCV, Glasgow, United Kingdom, Aug. 2020.
+[204] | 2020 | Yuk Heo, Yeong Jun Koh, and Chang-Su Kim | Interactive Video Object Segmentation Using Global and Local Transfer Modules | in Proc. ECCV, Glasgow, United Kingdom, Aug. 2020.
+[203] | 2020 | Dongkwon Jin, Jun-Tae Lee, and Chang-Su Kim | Semantic Line Detection Using Mirror Attention and Comparative Ranking and Matching | in Proc. ECCV, Glasgow, United Kingdom, Aug. 2020.
+[202] | 2020 | Han-Ul Kim, Yeong Jun Koh, and Chang-Su Kim | PieNet: Personalized Image Enhancement Network | in Proc. ECCV, Glasgow, United Kingdom, Aug. 2020.
+[201] | 2020 | Kyungsun Lim, Nyeong-Ho Shin, Young-Yoon Lee, and Chang-Su Kim | Order Learning and Its Application to Age Estimation | in Proc. ICLR, Addis Abada, Ethiopia, Apr. 2020.
+[200] | 2019 | Dongkwon Jin, Kyungsun Lim, and Chang-Su Kim | Robust Change Detection in High Resolution Satellite Images with Geometric Distortions | in Proc. APSIPA ASC 2019, Lanzhou, China, Nov. 2019.
+[199] | 2019 | Junheum Park, Chul Lee, and Chang-Su Kim | Deep Learning Approach to Video Frame Rate Up-Conversion Using Bilateral Motion Estimation | in Proc. APSIPA ASC 2019, Lanzhou, China, Nov. 2019.
+[198] | 2019 | Kyung-Rae Kim, Whan Choi, Yeong Jun Koh, Seong-Gyun Jeong, and Chang-Su Kim | Instance-Level Future Motion Estimation in a Single Image Based on Ordinal Regression | in Proc. ICCV, Seoul, Korea, Oct. 2019.
+[197] | 2019 | Jun-Tae Lee and Chang-Su Kim | Image Aesthetic Assessment Based on Pairwise Comparison A Unified Approach to Score Regression, Binary Classification, and Personalization | in Proc. ICCV, Seoul, Korea, Oct. 2019.
+[196] | 2019 | Han-Ul Kim, Yeong Jun Koh, and Chang-Su Kim | Meta Learning for Unsupervised Clustering | in Proc. BMVC, Cardiff, UK, Sep. 2019.
+[195] | 2019 | Yuk Heo, Yeong Jun Koh, and Chang-Su Kim | Interactive Video Object Segmentation Using Sparse-to-Dense Networks | in Proc. CVPR Workshops, Long Beach, California, June. 2019.
+[194] | 2019 | Won-Dong Jang and Chang-Su Kim | Interactive Image Segmentation via Backpropagating Refinement Scheme | in Proc. CVPR, Long Beach, California, June. 2019.
+[193] | 2019 | Jae-Han Lee and Chang-Su Kim | Monocular Depth Estimation Using Relative Depth Maps | in Proc. CVPR, Long Beach, California, June. 2019.
+[192] | 2019 | Ji-Su Kim, Jae-Han Lee, and Chang-Su Kim | 3D Point Cloud Sequence Compression Using Block Skipping | in Proc. IW-FCV, Gangneung, Korea, Feb. 2019.
+[191] | 2019 | Seon-Ho Lee and Chang-Su Kim | Point-Inception Network for 3D Object Classification | in Proc. IW-FCV, Gangneung, Korea, Feb. 2019.
+[190] | 2019 | Ji-Su Kim, Jae-Han Lee, and Chang-Su Kim | Inter-Frame Compression of 3D Point Cloud Sequences | in Proc. ICEIC, Auckland, New Zealand, Jan. 2019.
+[189] | 2018 | Kyungsun Lim, Dongkwon Jin, and Chang-Su Kim | Change detection in high resolution satellite images using an ensemble of convolutional neural networks | in Proc. APSIPA ASC, Hawaii, USA, Nov. 2018.
+[188] | 2018 | Keunsoo Ko, Jun-Tae Lee, and Chang-Su Kim | PAC-NET: Pairwise aesthetic comparison network for image aesthetic assessment | in Proc. ICIP, Athens, Greece, Oct. 2018.
+[187] | 2018 | Minhyeok Heo, Jaehan Lee, Kyung-Rae Kim, Han-Ul Kim, and Chang-Su Kim | Monocular depth estimation using whole strip masking and reliability-based refinement | in Proc. ECCV, Munich, Germany, Sep. 2018.
+[186] | 2018 | Yeong Jun Koh, Young-Yoon Lee, and Chang-Su Kim | Sequential clique optimization for video object segmentation | in Proc. ECCV, Munich, Germany, Sep. 2018.
+[185] | 2018 | Jae-Han Lee, Minhyeok Heo, Kyung-Rae Kim, and Chang-Su Kim | Single-image depth estimation based on Fourier domain analysis | in Proc. CVPR, Salt Lake City, Utah, June. 2018.
+[184] | 2018 | Whan Choi, Kyung-Rae Kim, and Chang-Su Kim | Reliable depth-of-field rendering using estimated depth maps | in Proc. ISCAS, Florence, Italy, May. 2018.
+[183] | 2017 | Han-Ul Kim and Chang-Su Kim | PGT: Proposal-guided object tracking | in Proc. APSIPA ASC 2017, Kuala Lumpur, Malaysia, Dec. 2017.
+[182] | 2017 | Jun-Tae Lee, Han-Ul Kim, and Chang-Su Kim | Semantic line detection and its applications | in Proc. ICCV, Venice, Italy, Oct. 2017.
+[181] | 2017 | Yeong Jun Koh and Chang-Su Kim | CDTS: Collaborative detection, tracking, and segmentation for online multiple object segmentation in videos | in Proc. ICCV, Venice, Italy, Oct. 2017.

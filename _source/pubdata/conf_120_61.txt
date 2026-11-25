@@ -1,0 +1,60 @@
+[120] | 2012 | Sang-Uk Park, Young-Yoon Lee, Chang-Su Kim, and Sang-Uk Lee | Efficient side information generation using assistant pixels for distributed video coding | in Proc. Picture Coding Symposium, Krakow, Poland, May 2012.
+[119] | 2012 | Dae-Young Hyun, Jun-Hee Heu, Chang-Su Kim, and Sang-Uk Lee | Colorization-based inter-plane prediction algorithm for high-fidelity color image compression | in Proc. Picture Coding Symposium, Krakow, Poland, May 2012.
+[118] | 2012 | Yongseok Soh, Jae-Young Sim, Chang-Su Kim, and Sang-Uk Lee | Superpixel-based depth image super-resolution | in Proc. SPIE 8290, 3D Image Processing and Applications II, Feb. 2012.
+[117] | 2011 | Chulwoo Lee, Chul Lee, and Chang-Su Kim | Power-constrained image processing techniques for emissive and non-emissive displays | in Proc. IMID, Seoul, Korea, pp. 606-607, Oct. 2011.
+[116] | 2011 | Chulwoo Lee, Chul Lee, and Chang-Su Kim | Gradient domain contrast enhancement with histogram-guided boundary conditions | in Proc. IEEE ICIP, Brussels, Belgium, pp. 3433-3436, Sep. 2011.
+[115] | 2011 | Seong-Gyun Jeong and Chang-Su Kim | Feature-preserving thumbnail generation based on graph cuts | in Proc. IEEE ICIP, Brussels, Belgium, Sep. 2011.
+[114] | 2011 | Dae-Youn Lee, Jae-Kyun Ahn, Minsu Ahn, James Do Kyoon Kim, Changyeong Kim, and Chang-Su Kim | 3D mesh compression based on dual-ring prediction and MMSE prediction | in Proc. IEEE ICIP, Brussels, Belgium, Sep. 2011.
+[113] | 2011 | Chul Lee, Chulwoo Lee, and Chang-Su Kim | MMSE nonlocal means denoising algorithm for Poisson noise removal | in Proc. IEEE ICIP, Brussels, Belgium, pp. 2561-2564, Sep. 2011.
+[112] | 2011 | Dae-Hyun Lee, Jae-Young Sim, Chang-Su Kim, and Sang-Uk Lee | Viewing angle dependent coding of digital holograms | in Proc. EUSIPCO, Bucharest, Romania, Aug. 2011.
+[111] | 2011 | Jin-Hwan Kim, Jae-Young Sim, and Chang-Su Kim | Fast contrast restoration for hazy video sequences | in Proc. ITC-CSCC, Gyeongju, Korea, Jun. 2011.
+[110] | 2011 | Yeong Jun Koh, Sang-Hwan Kim, Chul Lee, and Chang-Su Kim | Spatial video summarization using multi-camera based background subtraction | in Proc. ITC-CSCC, Gyeongju, Korea, Jun. 2011.
+[109] | 2011 | Sang-Hwan Kim and Chang-Su Kim | Panoramic video synthesis using selective warping | in Proc. 3DSA, Seoul, Korea, Jun. 2011.
+[108] | 2011 | Jin-Hwan Kim, Jae-Young Sim, and Chang-Su Kim | Single image dehazing based on contrast enhancement | in Proc. ICASSP, Prague, Czech Republic, May 2011.
+[107] | 2011 | Seong-Gyun Jeong and Chang-Su Kim | Thumbnail generation technique manifesting image characteristic | in Proc. IWAIT, Jakarta, Indonesia, Jan. 2011.
+[106] | 2010 | Soon-Young Lee, Jae-Young Sim, Chang-Su Kim, and Sang-Uk Lee | Panoramic scene generation from multi-view images with close foreground objects | in Proc. Picture Coding Symposium, Nagoya, Japan, Dec. 2010.
+[105] | 2010 | Dae-Young Hyun, Jun-Hee Heu, Chang-Su Kim, and Sang-Uk Lee | Region-based backlight compensation algorithm for images and videos | in Proc. IEEE ICIP, Hong Kong, Sep. 2010.
+[104] | 2010 | Jae-Kyun Ahn, Dae-Youn Lee, Minsu Ahn, James Do Kyoon Kim, and Chang-Su Kim | Progressive compression of 3D triangular meshes using topology-based Karhunen-Loeve transform | in Proc. IEEE ICIP, Hong Kong, Sep. 2010.
+[103] | 2010 | Tae-Young Chung, Sanghoon Sull, and Chang-Su Kim | Frame loss concealment for stereoscopic video based on inter-view similarity of motion and intensity difference | in Proc. IEEE ICIP, Hong Kong, Sep. 2010.
+[102] | 2010 | Dae-Youn Lee, Jae-Kyun Ahn, Chul Lee, and Chang-Su Kim | High quality video acquisition and segmentation using alternate flashing system | in Proc. Pacific-Rim Conference on Multimedia (PCM), Shanghai, China, Sep. 2010.
+[101] | 2010 | Chulwoo Lee, Chul Lee, and Chang-Su Kim | Power-constrained contrast enhancement for OLED displays based on histogram equalization | in Proc. IEEE ICIP, Hong Kong, pp. 1689-1692, Sep. 2010.
+[100] | 2010 | Dae-Youn Lee, Jae-Kyun Ahn, Minsu Ahn, Jeong-Hwan Ahn, James Do Kyoon Kim, and Chang-Su Kim | Topology-based energy compaction transform for spectral mesh compression | in Proc. International Conference on 3D Systems and Applications, Tokyo, Japan, May 2010.
+[99] | 2009 | Tae-Young Chung, Il-Lyong Jung, Kwanwoong Song, and Chang-Su Kim | Virtual view interpolation and prediction structure for full parallax multi-view video | in Proc. PCM, Bangkok, Thailand, Dec. 2009.
+[98] | 2009 | Jun-Hee Heu, Dae-Young Hyun, Chang-Su Kim, and Sang-Uk Lee | Image and video colorization based on prioritized source propagation | in Proc. IEEE ICIP, Cairo, Egypt, Nov. 2009.
+[97] | 2009 | Sang-Uk Park, Young-Yoon Lee, Jin-Woo Choi, Jung-Won Kang, Chang-Su Kim, and Sang-Uk Lee | Multiple channel division for efficient distributed video coding | in Proc. IEEE ICIP, Cairo, Egypt, Nov. 2009.
+[96] | 2009 | Il-Lyong Jung, Taeyoung Chung, Kwanwoong Song, and Chang-Su Kim | Virtual view synthesis using multi-view video sequences | in Proc. IEEE ICIP, Cairo, Egypt, Nov. 2009.
+[95] | 2009 | Dae-Youn Lee, Jae-Kyun Ahn, and Chang-Su Kim | Fast background subtraction algorithm using two-level sampling and silhouette detection | in Proc. IEEE ICIP, Cairo, Egypt, Nov. 2009.
+[94] | 2009 | Jin-Woo Choi, Sang-Uk Park, Chang-Su Kim, and Sang-Uk Lee | Flexible complexity control between encoder and decoder for video coding | in Proc. IEEE MMSP, Rio de Janeiro, Brazil, Oct. 2009.
+[93] | 2009 | Dae-Young Hyun, Jun-Hee Heu, Chang-Su Kim, and Sang-Uk Lee | Reliable colorization algorithm for images and videos | in Proc. EUSIPCO, Glasgow, Scotland, Aug. 2009.
+[92] | 2009 | Jin-Hwan Kim, Jun-Seong Kim, and Chang-Su Kim | Image and video retargeting using adaptive scaling function | in Proc. EUSIPCO, Glasgow, Scotland, Aug. 2009.
+[91] | 2009 | Jun-Seong Kim, Jin-Hwan Kim, and Chang-Su Kim | Adaptive image and video retargeting technique based on Fourier analysis | in Proc. CVPR, Miami, Florida, Jun. 2009.
+[90] | 2009 | Jae-Kyun Ahn, Dae-Youn Lee, and Chang-Su Kim | Automatic object segmentation using multiple images of different luminous intensities | in Proc. IWAIT, Seoul, Korea, Jan. 2009.
+[89] | 2009 | Sang-Heon Lee, Soon-Young Lee, Jun-Hee Heu, Chang-Su Kim, and Sang-Uk Lee | Video inpainting algorithm using spatio-temporal consistency | in Proc. SPIE Electronic Imaging, San Jose, California, Jan. 2009.
+[88] | 2009 | Chul Lee and Chang-Su Kim | Rate-distortion optimal bit allocation for high dynamic range video compression | in Proc. IWAIT, Seoul, Korea, Jan. 2009.
+[87] | 2008 | Jae-Kyun Ahn and Chang-Su Kim | Real-time segmentation of objects from video sequences with non-stationary backgrounds using spatio-temporal coherence | in Proc. IEEE ICIP, San Diego, California, Oct. 2008.
+[86] | 2008 | Soon-Young Lee, Jun-Hee Heu, Chang-Su Kim, and Sang-Uk Lee | An object inpainting algorithm for multi-view video sequences | in Proc. IEEE ICIP, San Diego, California, Oct. 2008.
+[85] | 2008 | Taeyoung Chung, Kwanwoong Song, and Chang-Su Kim | Compression of 2-D wide multi-view video sequences using view interpolation | in Proc. IEEE ICIP, San Diego, California, Oct. 2008.
+[84] | 2008 | Chul Lee and Chang-Su Kim | Rate-distortion optimized compression of high dynamic range videos | in Proc. EUSIPCO, Lausanne, Switzerland, Aug. 2008.
+[83] | 2008 | Soon-Young Lee, Jun-Hee Heu, Chang-Su Kim, and Sang-Uk Lee | An object removal using multi-view sequence inpainting technique | in Proc. IIH-MSP, Harbin, China, Aug. 2008.
+[82] | 2008 | Taeyoung Chung, Kwanwoong Song, and Chang-Su Kim | Efficient prediction structure for 2-D wide multi-view video sequence | in Proc. IIH-MSP, Harbin, China, Aug. 2008.
+[81] | 2008 | Sergey Chalkov, Natalie Meshalkina, and Chang-Su Kim | Post-processing algorithm for reducing ringing artefacts in deblurred images | in Proc. ITC-CSCC, Shimonoseki, Japan, Jul. 2008.
+[80] | 2007 | Taeyoung Chung, Kwanwoong Song, and Chang-Su Kim | Error concealment techniques for multi-view video sequences | in Proc. PCM, Hong Kong, China, Dec. 2007.
+[79] | 2007 | Nitin Singhal, Young-Yoon Lee, Chang-Su Kim, and Sang-Uk Lee | Robust image watermarking based on local Zernike moments | in Proc. IEEE MMSP, Crete, Greece, Oct. 2007.
+[78] | 2007 | Chul Lee and Chang-Su Kim | Gradient domain tone mapping of high dynamic range videos | in Proc. IEEE ICIP, San Antonio, Texas, Sep. 2007.
+[77] | 2007 | Je-Won Kang, Suk-Hee Cho, Nam-Ho Hur, Chang-Su Kim, and Sang-Uk Lee | Graph theoretical optimization of prediction structure in multiview video coding | in Proc. IEEE ICIP, San Antonio, Texas, Sep. 2007.
+[76] | 2007 | Jun-Seong Kim and Chang-Su Kim | A filter design algorithm for subpixel rendering on matrix displays | in Proc. EUSIPCO, Poznan, Poland, Sep. 2007.
+[75] | 2007 | Il-Lyong Jung and Chang-Su Kim | Image enhancement using sorted histogram specification and POCS postprocessing | in Proc. IEEE ICIP, San Antonio, Texas, Sep. 2007.
+[74] | 2007 | Sung-Bum Park, Chang-Su Kim, and Sang-Uk Lee | Multiple description coding of plane-based 3-D surfaces | in Proc. IEEE ICIP, San Antonio, Texas, Sep. 2007.
+[73] | 2007 | Marcelo Duarte Esperidiao and Chang-Su Kim | Low complexity deblocking filter for low bit rate DCT coded videos | in Proc. ITC-CSCC, Busan, Korea, Jul. 2007.
+[72] | 2007 | Hendro Baskoro and Chang-Su Kim | Combined heuristics for post-processing of boosting-based single-face detection system | in Proc. ITC-CSCC, Busan, Korea, Jul. 2007.
+[71] | 2007 | Liu Hai, Dongjin Kwon, Junhee Heu, Chang-Su Kim, and Sang-Uk Lee | Fast mode decision for P-frames in H.264 | in Proc. ITC-CSCC, Busan, Korea, Jul. 2007.
+[70] | 2007 | Sergey Chalkov and Chang-Su Kim | Successive spatiotemporal video denoising algorithm | in Proc. ITC-CSCC, Busan, Korea, Jul. 2007.
+[69] | 2007 | Kwanwoong Song, Taeyoung Chung, Chang-Su Kim, Young-O Park, Yongdeok Kim, and Yunje Oh | Efficient multi-hypothesis error concealment technique for H.264 | in Proc. ISCAS, New Orleans, Louisiana, May 2007.
+[68] | 2007 | Il-Lyong Jung and Chang-Su Kim | Image enhancement based on sorted histogram equalization and projection onto convex sets | in Proc. IWAIT, Thailand, Jan. 2007.
+[67] | 2006 | Sang-Uk Park, Young-Yoon Lee, Chang-Su Kim, and Sang-Uk Lee | Blind watermarking for authentication of 3-D QSplat models | in Proc. SPIE Optics East, Boston, Massachusetts, Oct. 2006.
+[66] | 2006 | Soon-Young Lee, Junhee Heu, Sung-Bum Park, Chang-Su Kim, and Sang-Uk Lee | Mesh editing using motion features | in Proc. SPIE Optics East, Boston, Massachusetts, Oct. 2006.
+[65] | 2006 | Young-Yoon Lee, Chang-Su Kim, and Sang-Uk Lee | Video fingerprinting based on frame skipping | in Proc. IEEE ICIP, Atlanta, Georgia, Oct. 2006.
+[64] | 2006 | Sung-Bum Park, Young-Yoon Lee, Chang-Su Kim, and Sang-Uk Lee | Robust compression of 3-D point clouds using multiple description coding | in Proc. SPIE Optics East, Boston, Massachusetts, Oct. 2006.
+[63] | 2006 | In-Wook Song, Chang-Su Kim, and Sang-Uk Lee | Progressive transmission of PointTexture 3-D images | in Proc. ICASSP, Toulouse, France, May 2006.
+[62] | 2006 | Dohyun Ahn, Chang-Su Kim, and Sang-Uk Lee | Rate-distortion optimized image compression using generalized principal component analysis | in Proc. ICASSP, Toulouse, France, May 2006.
+[61] | 2006 | Junhee Heu, Jeong-Hyu Yang, Chang-Su Kim, and Sang-Uk Lee | R-D optimized compression of 3-D mesh sequences based on principal component analysis | in Proc. 44th ACM Southeast Conference, Florida, Mar. 2006.

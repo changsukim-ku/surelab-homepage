@@ -1,0 +1,60 @@
+[60] | 2005 | Chang-Su Kim | Improving motion picture quality of plasma display panels | in Proc. ISPACS, Hong Kong, China, Dec. 2005.
+[59] | 2005 | Jae-Young Sim, Chang-Su Kim, and Sang-Uk Lee | Vector quantization of 3-D point clouds | in Proc. SPIE Optics East, Boston, Massachusetts, Oct. 2005.
+[58] | 2005 | In-Wook Song, Chang-Su Kim, and Sang-Uk Lee | Compression of PointTexture 3D motion sequences | in Proc. SPIE Optics East, Boston, Massachusetts, Oct. 2005.
+[57] | 2005 | Youngmin Kwak, Chang-Su Kim, and C.-C. Jay Kuo | Robust compression and reconstruction of 3-D mesh data | in Proc. SPIE Optics East, Boston, Massachusetts, Oct. 2005.
+[56] | 2005 | Youngmin Kwak, Chang-Su Kim, and C.-C. Jay Kuo | Dynamic fluid animation using scalable grids | in Proc. SPIE Optics & Photonics, San Diego, California, Aug. 2005.
+[55] | 2005 | Jeong-Hyu Yang, Chang-Su Kim, and C.-C. Jay Kuo | Progressive coding of 3D dynamic mesh sequences using spatiotemporal decomposition | in Proc. ISCAS, Kobe, Japan, May 2005.
+[54] | 2005 | Jae-Young Sim, Chang-Su Kim, and Sang-Uk Lee | Construction of regular 3D point clouds using octree partitioning and resampling | in Proc. ISCAS, Kobe, Japan, May 2005.
+[53] | 2004 | Wei-Ying Kung, Chang-Su Kim, and C.-C. Jay Kuo | Multi-hypothesis motion compensated prediction (MHMCP) for error-resilient visual communication | in Proc. ISIMP, Hong Kong, China, Oct. 2004.
+[52] | 2004 | Jeong-Hyu Yang, Chang-Su Kim, and Sang-Uk Lee | Progressive compression of 3D dynamic sequences | in Proc. IEEE ICIP, Singapore, Oct. 2004.
+[51] | 2004 | Wei-Ying Kung, Chang-Su Kim, and C.-C. Jay Kuo | Error resilience analysis of multi-hypothesis motion compensated prediction for video coding | in Proc. IEEE ICIP, Singapore, Oct. 2004.
+[50] | 2004 | Peter H. W. Wong, Robert T. W. Hung, Jack Y. B. Lee, S. C. Liew, C. S. Kim, and Roland T. Chin | Rate estimation for H.264/AVC spatial resolution reduction | in Proc. IEEE ICIP, Singapore, Oct. 2004.
+[49] | 2004 | Chang-Su Kim and Sang-Uk Lee | Reduction of gray level disturbances in plasma display panels | in Proc. ISCAS, Vancouver, Canada, May 2004.
+[48] | 2004 | Wei-Ying Kung, Chang-Su Kim, and C.-C. Jay Kuo | Analysis of multi-hypothesis motion compensated prediction for robust video transmission | in Proc. ISCAS, Vancouver, Canada, May 2004.
+[47] | 2004 | Seung-Wook Park, Seung Hwan Kim, Chang-Su Kim, and Sang-Uk Lee | Adaptive windowing technique for variable block size motion compensation | in Proc. SPIE VCIP, San Jose, California, Jan. 2004.
+[46] | 2004 | Wei-Ying Kung, Chang-Su Kim, and C.-C. Jay Kuo | Analysis of multi-hypothesis motion compensated prediction for error resilient video transmission | in Proc. SPIE VCIP, San Jose, California, Jan. 2004.
+[45] | 2004 | In-Wook Song, Chang-Su Kim, and Sang-Uk Lee | Progressive compression of PointTexture images | in Proc. SPIE VCIP, San Jose, California, Jan. 2004.
+[44] | 2004 | Jae-Young Sim, Chang-Su Kim, and Sang-Uk Lee | Lossless compression of point-based data for 3D graphics rendering | in Proc. SPIE VCIP, San Jose, California, Jan. 2004.
+[43] | 2003 | Sang-Jun Ahn, Chang-Su Kim, and Sang-Uk Lee | Detection and compensation of dynamic false contours in PDP | in Proc. International Display Workshops, Fukuoka, Japan, Dec. 2003.
+[42] | 2003 | Wei-Ying Kung, Chang-Su Kim, and C.-C. Jay Kuo | Error resilient video transmission with multi-hypothesis motion compensated prediction | in Proc. SPIE ITCOM, Orlando, Florida, Sep. 2003.
+[41] | 2003 | Young O Park, Chang-Su Kim, and Sang-Uk Lee | Multi-hypothesis error concealment algorithm for H.26L video | in Proc. IEEE ICIP, Barcelona, Spain, Sep. 2003.
+[40] | 2003 | Jeong-Hwan Ahn, Chang-Su Kim, and Yo-Sung Ho | An efficient coding algorithm for color and normal data of three-dimensional mesh models | in Proc. IEEE ICIP, Barcelona, Spain, Sep. 2003.
+[39] | 2003 | Sung-Bum Park, Chang-Su Kim, and Sang-Uk Lee | Error resilient coding of 3-D meshes | in Proc. IEEE ICIP, Barcelona, Spain, Sep. 2003.
+[38] | 2003 | Kyung-Hwa Han, Jae-Young Sim, Chang-Su Kim, and Sang-Uk Lee | Compression of color data in 3D semi-regular meshes | in Proc. ITC-CSCC, Korea, Jul. 2003.
+[37] | 2003 | Jeong-Hyu Yang, Chang-Su Kim, and Sang-Uk Lee | Robust semi-regular mesh representation of 3D dynamic objects | in Proc. ISCAS, Bangkok, Thailand, May 2003.
+[36] | 2003 | Jae-Young Sim, Chang-Su Kim, C.-C. Jay Kuo, and Sang-Uk Lee | View-dependent transmission of 3-D normal meshes | in Proc. ISCAS, Bangkok, Thailand, May 2003.
+[35] | 2003 | Wei-Ying Kung, Chang-Su Kim, and C.-C. Jay Kuo | A spatial-domain error concealment method with edge recovery and selective directional interpolation | in Proc. IEEE ICASSP, Hong Kong, China, Apr. 2003.
+[34] | 2003 | Min-Kuan Chang, Chang-Su Kim, and C.-C. Jay Kuo | Power control for packet-based wireless communication systems | in Proc. IEEE WCNC, New Orleans, Louisiana, Mar. 2003.
+[33] | 2003 | Jeong-Hwan Ahn, Chang-Su Kim, and Sang-Uk Lee | Predictive coding of color and normal vector information for three-dimensional mesh representation | in Proc. IWAIT, Nagasaki, Japan, Jan. 2003.
+[32] | 2002 | In-Wook Song, Chang-Su Kim, and Sang-Uk Lee | View-dependent compression of 3D voxel models based on skeleton representation | in Proc. IEEE MMSP, Virgin Islands, USA, Dec. 2002.
+[31] | 2002 | Jeong-Hyu Yang, Chang-Su Kim, and Sang-Uk Lee | Semi-regular mesh representation of 3D dynamic objects based on correspondence matching | in Proc. IEEE MMSP, Virgin Islands, USA, Dec. 2002.
+[30] | 2002 | Jae-Young Sim, Chang-Su Kim, C.-C. Jay Kuo, and Sang-Uk Lee | Normal mesh compression based on rate-distortion optimization | in Proc. IEEE MMSP, Virgin Islands, USA, Dec. 2002.
+[29] | 2002 | Wei-Ying Kung, Chang-Su Kim, and C.-C. Jay Kuo | A dynamic error concealment for video transmission over noisy channels | in Proc. IEEE GLOBECOM, Taipei, Taiwan, Nov. 2002.
+[28] | 2002 | Sung-Bum Park, Chang-Su Kim, and Sang-Uk Lee | Progressive mesh compression using cosine index predictor and 2-stage geometry predictor | in Proc. IEEE ICIP, Rochester, New York, Sep. 2002.
+[27] | 2002 | Bong Gyun Roh, Chang-Su Kim, and Sang-Uk Lee | Progressive encoding of voxel surfaces based on pattern code representation | in Proc. IEEE ICME, Lausanne, Switzerland, Aug. 2002.
+[26] | 2002 | Wei-Ying Kung, Chang-Su Kim, Robert Ku, and C.-C. Jay Kuo | Adaptive joint source/channel coding for robust video transmission | in Proc. ISCAS, Scottsdale, Arizona, May 2002.
+[25] | 2002 | Min-Kuan Chang, Chang-Su Kim, and C.-C. Jay Kuo | Downlink SINR analysis for multi-rate W-CDMA systems | in Proc. IEEE VTC, Birmingham, Alabama, May 2002.
+[24] | 2002 | Jae-Young Sim, Chang-Su Kim, and Sang-Uk Lee | 3D mesh compression using triangle fan structure | in Proc. ISCAS, Scottsdale, Arizona, May 2002.
+[23] | 2002 | Chien-Hwa Hwang, Chang-Su Kim, and C.-C. Jay Kuo | Analysis of multistage linear parallel interference cancellation in CDMA systems using graphical representation | in Proc. IEEE ICC, New York, Apr. 2002.
+[22] | 2002 | Min-Kuan Chang, Chang-Su Kim, and C.-C. Jay Kuo | A novel power control scheme for packet-switched W-CDMA systems | in Proc. SPIE AeroSense, Orlando, Florida, Apr. 2002.
+[21] | 2002 | Chih-Hung Kuo, Chang-Su Kim, and C.-C. Jay Kuo | Robust video transmission over wideband wireless channel using space-time coded OFDM systems | in Proc. IEEE WCNC, Paris, France, Mar. 2002.
+[20] | 2002 | Sheng Yang, Chang-Su Kim, and C.-C. Jay Kuo | View-dependent progressive mesh coding based on partitioning | in Proc. SPIE VCIP, San Jose, California, Jan. 2002.
+[19] | 2002 | Chih-Hung Kuo, Chang-Su Kim, Robert Ku, and C.-C. Jay Kuo | Embedded space-time coding for wireless broadcast | in Proc. SPIE VCIP, San Jose, California, Jan. 2002.
+[18] | 2002 | Wei-Ying Kung, Chang-Su Kim, Robert Ku, and C.-C. Jay Kuo | Robust video transmission with adaptive joint source/channel bit allocation | in Proc. SPIE VCIP, San Jose, California, Jan. 2002.
+[17] | 2002 | Jeong-Hwan Ahn, Chang-Su Kim, C.-C. Jay Kuo, and Yo-Sung Ho | Motion compensated coding of 3-D animation models | in Proc. SPIE VCIP, San Jose, California, Jan. 2002.
+[16] | 2001 | Jeong-Hyu Yang, Chang-Su Kim, and Sang-Uk Lee | Compression of 3D triangle mesh sequences | in Proc. IEEE MMSP, Cannes, France, Oct. 2001.
+[15] | 2001 | Chien-Hwa Hwang, Chang-Su Kim, and C.-C. Jay Kuo | Performance analysis of multistage linear parallel interference canceller in long-code CDMA systems | in Proc. SPIE ITCOM, Denver, Colorado, Aug. 2001.
+[14] | 2001 | Wei-Ying Kung, Chang-Su Kim, and C.-C. Jay Kuo | An unequal error protection method for packet video transmission over wireless channels | in Proc. SPIE ITCOM, Denver, Colorado, Aug. 2001.
+[13] | 2001 | Sheng Yang, Chang-Su Kim, and C.-C. Jay Kuo | View-dependent progressive mesh coding for graphic streaming | in Proc. SPIE ITCOM, Denver, Colorado, Aug. 2001.
+[12] | 2001 | Min-Kuan Chang, Chang-Su Kim, and C.-C. Jay Kuo | A novel power control scheme for multimedia CDMA transmission | in Proc. SPIE ITCOM, Denver, Colorado, Aug. 2001.
+[11] | 2001 | Chih-Hung Kuo, Chang-Su Kim, and C.-C. Jay Kuo | Layered video transmission over space-time coded systems | in Proc. SPIE Optical Science and Technology, San Diego, California, Jul. 2001.
+[10] | 2001 | Chien-Hwa Hwang, Chang-Su Kim, and C.-C. Jay Kuo | Analysis of iterative multiuser receiver for DS-CDMA in Rayleigh fading environment | in Proc. International Conference on Third Generation Wireless and Beyond, San Francisco, California, May 2001.
+[9] | 2001 | Wei-Ying Kung, Chang-Su Kim, and C.-C. Jay Kuo | Video transmission over CDMA systems with unequal error protection | in Proc. International Conference on Third Generation Wireless and Beyond, San Francisco, California, May 2001.
+[8] | 2000 | Wei-Ying Kung, Chang-Su Kim, Chien-Hwa Hwang, and C.-C. Jay Kuo | An efficient channel code assignment scheme for multiple users in CDMA systems | in Proc. SPIE Information Technologies, Boston, Massachusetts, Nov. 2000.
+[7] | 2000 | Seung Hwan Kim, Chang-Su Kim, and Sang-Uk Lee | Efficient motion compensation algorithm based on second-order prediction | in Proc. IEEE ICIP, Vancouver, Canada, Sep. 2000.
+[6] | 2000 | Jae-Young Sim, Chang-Su Kim, and Sang-Uk Lee | Triangle mesh compression using geometric constraints | in Proc. ITC-CSCC, Pusan, Korea, Jul. 2000.
+[5] | 2000 | Chang-Su Kim and Sang-Uk Lee | Multiple description motion coding algorithm for robust video transmission | in Proc. ISCAS, Lausanne, Switzerland, May 2000.
+[4] | 1997 | Chang-Su Kim, Rin-Chul Kim, and Sang-Uk Lee | Robust transmission of video over noisy channel using parity motion vector | in Proc. IEEE ICIP, Washington D.C., Oct. 1997.
+[3] | 1996 | Chang-Su Kim, Rin-Chul Kim, and Sang-Uk Lee | Fractal coding of image sequence using extended circular prediction mapping | in Proc. EUSIPCO, Trieste, Italy, Sep. 1996.
+[2] | 1996 | Chang-Su Kim, Rin-Chul Kim, and Sang-Uk Lee | Fractal coding of video sequence using CPM and NCIM | in Proc. International Workshop on New Video Media Technology, Seoul, Korea, Mar. 1996.
+[1] | 1995 | Chang-Su Kim, Rin-Chul Kim, and Sang-Uk Lee | Novel fractal image compression method with non-iterative decoder | in Proc. IEEE ICIP, Washington D.C., Oct. 1995.

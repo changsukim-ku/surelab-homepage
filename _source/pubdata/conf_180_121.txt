@@ -1,0 +1,60 @@
+[180] | 2017 | Se-Ho Lee, Won-Dong Jang, and Chang-Su Kim | Temporal superpixels based on proximity-weighted patch matching | in Proc. ICCV, Venice, Italy, Oct. 2017.
+[179] | 2017 | Juhyeok Mun, Won-Dong Jang, Deuk Jae Sung, and Chang-Su Kim | Comparison of objective functions in CNN-based prostate magnetic resonance image segmentation | in Proc. ICIP, Beijing, China, Sep. 2017.
+[178] | 2017 | Kyungsun Lim, Won-Dong Jang, and Chang-Su Kim | Background subtraction using encoder-decoder structured convolutional neural network | in Proc. IEEE International Conference on Advanced Video and Signal based Surveillance, Lecce, Italy, Aug. 2017.
+[177] | 2017 | Won-Dong Jang and Chang-Su Kim | Clustering using multiple random walkers with adaptive restart rule | in Proc. ITC-CSCC, Busan, Korea, Jul. 2017.
+[176] | 2017 | Chang-Su Kim, Whan Choi, and Se-Ho Lee | Video codec classification for video bitstreams | in Proc. ITC-CSCC, Busan, Korea, Jul. 2017.
+[175] | 2017 | Won-Dong Jang and Chang-Su Kim | Online video object segmentation via convolutional trident network | in Proc. CVPR, Honolulu, Hawaii, Jul. 2017.
+[174] | 2017 | Yeong Jun Koh and Chang-Su Kim | Primary object segmentation in videos based on region augmentation and reduction | in Proc. CVPR, Honolulu, Hawaii, Jul. 2017.
+[173] | 2017 | Se-Ho Lee, Won-Dong Jang, and Chang-Su Kim | Contour-constrained superpixels for image and video processing | in Proc. CVPR, Honolulu, Hawaii, Jul. 2017.
+[172] | 2017 | Jae-Han Lee, Kyung-Rae Kim, and Chang-Su Kim | Subpixel rendering without color distortions for diamond-shaped PenTile displays | in Proc. ISCAS, Baltimore, Maryland, May 2017.
+[171] | 2016 | Minhyeok Heo, Won-Dong Jang, and Chang-Su Kim | Video object segmentation using multiple random walkers with GMM restart rule | in Proc. APSIPA ASC 2016, Jeju, Korea, Dec. 2016.
+[170] | 2016 | Jaemoon Lim, Minhyeok Heo, Chul Lee, and Chang-Su Kim | Enhancement of noisy low-light images via structure-texture-noise decomposition | in Proc. APSIPA ASC 2016, Jeju, Korea, Dec. 2016.
+[169] | 2016 | Won-Dong Jang and Chang-Su Kim | Streaming video segmentation via short-term hierarchical segmentation and frame-by-frame Markov random field optimization | in Proc. ECCV, Amsterdam, the Netherlands, Oct. 2016.
+[168] | 2016 | Han-Ul Kim and Chang-Su Kim | CDT: Cooperative detection and tracking for tracing multiple objects in video sequences | in Proc. ECCV, Amsterdam, the Netherlands, Oct. 2016.
+[167] | 2016 | Se-Ho Lee, Won-Dong Jang, Byung Kwan Park, and Chang-Su Kim | RGB-D image segmentation based on multiple random walkers | in Proc. ICIP, Phoenix, Arizona, Sep. 2016.
+[166] | 2016 | Kyung-Rae Kim and Chang-Su Kim | Adaptive smoothness constraints for efficient stereo matching using texture and edge information | in Proc. ICIP, Phoenix, Arizona, Sep. 2016.
+[165] | 2016 | Won-Dong Jang and Chang-Su Kim | Semi-supervised video object segmentation using multiple random walkers | in Proc. BMVC, York, UK, Sep. 2016.
+[164] | 2016 | Won-Dong Jang, Chulwoo Lee, and Chang-Su Kim | Primary object segmentation in videos via alternate convex optimization of foreground and background distributions | in Proc. CVPR, Las Vegas, Nevada, Jun. 2016.
+[163] | 2016 | Yeong Jun Koh, Won-Dong Jang, and Chang-Su Kim | POD: Discovering primary objects in videos based on evolutionary refinement of object recurrence, background, and primary object models | in Proc. CVPR, Las Vegas, Nevada, Jun. 2016.
+[162] | 2016 | Jun-Tae Lee, Kyung-Rae Kim, Won-Dong Jang, and Chang-Su Kim | Near-duplicate video copy detection with multi-modal video signature matching | in Proc. International Workshop on Advanced Image Technology, Busan, Korea, Jan. 2016.
+[161] | 2016 | Se-Ho Lee, Won-Dong Jang, and Chang-Su Kim | RGB-D image segmenation based on random walk with restart | in Proc. International Workshop on Advanced Image Technology, Busan, Korea, Jan. 2016.
+[160] | 2015 | Han-Ul Kim, Dae-Youn Lee, Jae-Young Sim, and Chang-Su Kim | SOWP: Spatially ordered and weighted patch descriptor for visual tracking | in Proc. ICCV, Santiago, Chile, Dec. 2015.
+[159] | 2015 | Jun-Tae Lee, Kyung-Rae Kim, Won-Dong Jang, and Chang-Su Kim | Near-duplicate video clustering using multiple complementary video signatures | in Proc. APSIPA ASC 2015, Hong Kong, China, Dec. 2015.
+[158] | 2015 | Jaemoon Lim, Jin-Hwan Kim, Jae-Young Sim, and Chang-Su Kim | Robust contrast enhancement of noisy low-light images: denoising-enhancement-completion | in Proc. ICIP, Quebec, Canada, Sep. 2015.
+[157] | 2015 | Kyung-Rae Kim, Won-Dong Jang, and Chang-Su Kim | Frame-level matching of near duplicate videos based on ternary frame descriptor and iterative refinement | in Proc. ICIP, Quebec, Canada, Sep. 2015.
+[156] | 2015 | Youngbae Kim, Yeong Jun Koh, Chulwoo Lee, Sehoon Kim, and Chang-Su Kim | Dark image enhancement based on pairwise target contrast and multi-scale detail boosting | in Proc. ICIP, Quebec, Canada, Sep. 2015.
+[155] | 2015 | Dae-Youn Lee, Jae-Young Sim, and Chang-Su Kim | Multihypothesis trajectory analysis for robust visual tracking | in Proc. CVPR, Massachusetts, Boston, Jun. 2015.
+[154] | 2015 | Hansang Kim and Chang-Su Kim | Video ROI compression based on RWR saliency detection | in Proc. ITC-CSCC, Seoul, Korea, Jun. 2015.
+[153] | 2015 | Dae-Jung Han, Chulwoo Lee, and Chang-Su Kim | An efficient low power constraint enhancement algorithm using Gaussian mixture model | in Proc. ITC-CSCC, Seoul, Korea, Jun. 2015.
+[152] | 2015 | Chulwoo Lee, Won-Dong Jang, Jae-Young Sim, and Chang-Su Kim | Multiple random walkers and their application to image cosegmentation | in Proc. CVPR, Massachusetts, Boston, Jun. 2015.
+[151] | 2014 | Youngbae Kim, Jin-Hwan Kim, and Chang-Su Kim | VGEF: contrast enhancement of dark images using value gap expansion force and sorted histogram equalization | in Proc. APSIPA ASC 2014, Siem Reap, Cambodia, Dec. 2014.
+[150] | 2014 | Han-Ul Kim, Jin-Hwan Kim, and Chang-Su Kim | Hybrid representation and rendering of indoor environments using meshes and point clouds | in Proc. URAI 2014, Kuala Lumpur, Malaysia, Nov. 2014.
+[149] | 2014 | Jun-Tae Lee, Chulwoo Lee, Jea-Young Sim, and Chang-Su Kim | Depth-guided adaptive contrast enhancement using 2D histograms | in Proc. IEEE ICIP, Paris, France, Oct. 2014.
+[148] | 2014 | Se-Ho Lee, Jin-Hwan Kim, Kwang Pyo Choi, Jea-Young Sim, and Chang-Su Kim | Video saliency detection based on spatiotemporal feature learning | in Proc. IEEE ICIP, Paris, France, Oct. 2014.
+[147] | 2014 | Yeong Jun Koh, Jea-Young Sim, and Chang-Su Kim | Robust video stabilization based on mesh grid warping of rolling-free features | in Proc. IEEE ICIP, Paris, France, Oct. 2014.
+[146] | 2014 | Jin-Hwan Kim, Jae-Young Sim, and Chang-Su Kim | Stereo video deraining and desnowing based on spatiotemporal frame warping | in Proc. IEEE ICIP, Paris, France, Oct. 2014.
+[145] | 2014 | Won-Dong Jang, Chulwoo Lee, Jae-Young Sim, and Chang-Su Kim | Automatic video genre classification using multiple SVM votes | in Proc. IEEE ICPR, Stockholm, Sweden, Aug. 2014.
+[144] | 2014 | Jin-Hwan Kim and Chang-Su Kim | Approximate solution to optimized contrast enhancement for hazy image | in Proc. IEEE ISCE, Jeju, Korea, Jun. 2014.
+[143] | 2014 | Dae-Youn Lee, Jae-Young Sim, and Chang-Su Kim | Visual tracking using pertinent patch selection and masking | in Proc. CVPR, Columbus, OH, Jun. 2014.
+[142] | 2014 | Won-Dong Jang, Jae-Young Sim, and Chang-Su Kim | GEQM: A quality metric for gray-level edge maps based on structural matching | in Proc. IEEE ICASSP 2014, Florence, Italy, May 2014.
+[141] | 2013 | Se-Ho Lee, Tae-Young Chung, Jae-Young Sim, and Chang-Su Kim | Efficient depth map recovery using concurrent object boundaries in texture and depth images | in Proc. APSIPA ASC 2013, Kaohsiung, Taiwan, Oct. 2013.
+[140] | 2013 | Jun-Tae Lee, Jae-Kyun Ahn, and Chang-Su Kim | Stitching of heterogeneous images using depth information | in Proc. APSIPA ASC 2013, Kaohsiung, Taiwan, Oct. 2013.
+[139] | 2013 | Dae-Youn Lee, Jae-Young Sim, and Chang-Su Kim | Fast object tracking using color histograms and patch differences | in Proc. IEEE ICIP, Melbourne, Australia, Sep. 2013.
+[138] | 2013 | Dae-Young Hyun, Jun-Hee Heu, Chang-Su Kim, and Sang-Uk Lee | Efficient macroblock ordering for chrominance planes in rich color image compression | in Proc. IEEE ICIP, Melbourne, Australia, Sep. 2013.
+[137] | 2013 | Yeong Jun Koh, Chul Lee, Jae-Young Sim, and Chang-Su Kim | Reliable Optical Flow Estimation in Motion-Blurred Regions | in Proc. IEEE MMSP 2013, Pula, Italy, Sep. 2013.
+[136] | 2013 | Il-Lyong Jung, Jae-Young Sim, Chang-Su Kim, and Sang-Uk Lee | Robust stereo matching under radiometric variations based on cumulative distributions of gradients | in Proc. IEEE ICIP, Melbourne, Australia, Sep. 2013.
+[135] | 2013 | Jin-Hwan Kim, Chul Lee, Jae-Young Sim, and Chang-Su Kim | Single-image deraining using an adaptive nonlocal means filter | in Proc. IEEE ICIP, Melbourne, Australia, Sep. 2013.
+[134] | 2013 | Chul Lee, Chang-Su Kim, and Sang-Uk Lee | Probabilistic depth-guided multi-view image denoising | in Proc. IEEE ICIP, Melbourne, Australia, Sep. 2013.
+[133] | 2013 | Jun-Seong Kim, Hansang Kim, Chang-Su Kim, and Sang-Uk Lee | Video saliency detection based on random walk with restart | in Proc. IEEE ICIP, Melbourne, Australia, Sep. 2013.
+[132] | 2013 | Chul Lee, Won-Dong Jang, Tae-Young Chung, and Chang-Su Kim | Complex feature-based logo recognition | in Proc. ITC-CSCC, Yeosu, Korea, Jun. 2013.
+[131] | 2013 | Seong-Gyun Jeong, Yeong Jun Koh, and Chang-Su Kim | Competitive block based motion estimation for high performance of motion compensated frame interpolation | in Proc. ITC-CSCC, Yeosu, Korea, Jun. 2013.
+[130] | 2013 | Chul Lee, Chulwoo Lee, and Chang-Su Kim | Contrast enhancement using 2-D to 1-D histogram conversion | in Proc. ITC-CSCC, Yeosu, Korea, Jun. 2013.
+[129] | 2012 | Il-Lyong Jung and Chang-Su Kim | Robust view synthesis under varying illumination conditions using segment-based disparity estimation | in Proc. APSIPA ASC 2012, Hollywood, CA, Dec. 2012.
+[128] | 2012 | Se-Ho Lee, Seong-Gyun Jeong, Tae-Young Chung, and Chang-Su Kim | Real-time acquisition and representation of 3D environmental data | in Proc. APSIPA ASC 2012, Hollywood, CA, Dec. 2012.
+[127] | 2012 | Won-Dong Jang and Chang-Su Kim | SEQM: Edge quality assessment based on structural pixel matching | in Proc. IEEE VCIP, San Diego, CA, Nov. 2012.
+[126] | 2012 | Tae-Young Chung, Won-Dong Jang, and Chang-Su Kim | Efficient depth video coding based on view synthesis distortion estimation | in Proc. IEEE VCIP, San Diego, CA, Nov. 2012.
+[125] | 2012 | Il-Lyong Jung, Jae-Young Sim, and Chang-Su Kim | Histogram-based stereo matching under varying illumination conditions | in Proc. IEEE VCIP, San Diego, CA, Nov. 2012.
+[124] | 2012 | Chul Lee, Jin-Hwan Kim, Chulwoo Lee, and Chang-Su Kim | Power-constrained backlight scaling and contrast enhancement for TFT-LCD displays | in Proc. IEEE ICIP, Orlando, Florida, Sep.-Oct. 2012.
+[123] | 2012 | Chulwoo Lee, Chul Lee, and Chang-Su Kim | Contrast enhancement based on layered difference representation | in Proc. IEEE ICIP, Orlando, Florida, Sep.-Oct. 2012.
+[122] | 2012 | Jin-Hwan Kim, Won-Dong Jang, Yongsup Park, Dong-Hahk Lee, Jae-Young Sim, and Chang-Su Kim | Temporally coherent real-time video dehazing | in Proc. IEEE ICIP, Orlando, Florida, Sep.-Oct. 2012.
+[121] | 2012 | Seong-Gyun Jeong, Chul Lee, and Chang-Su Kim | Exemplar-based frame rate up-conversion with congruent segmentation | in Proc. IEEE ICIP, Orlando, Florida, Sep.-Oct. 2012.
