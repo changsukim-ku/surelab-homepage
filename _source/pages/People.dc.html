@@ -69,6 +69,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 <div style="aspect-ratio: 4 / 5; background: #F4EDEC; position: relative; display: flex; align-items: center; justify-content: center">
 <span style="font-size: 64px; font-weight: 300; letter-spacing: 2px; color: #862633">{{s.ini}}</span>
 <svg width="18" height="18" viewBox="0 0 72 72" aria-hidden="true" style="position: absolute; right: 14px; bottom: 14px; opacity: 0.5"><circle cx="12" cy="12" r="7" fill="#D9C9CB"></circle><circle cx="36" cy="12" r="7" fill="#D9C9CB"></circle><circle cx="60" cy="12" r="7" fill="#862633"></circle><circle cx="12" cy="36" r="7" fill="#D9C9CB"></circle><circle cx="36" cy="36" r="7" fill="#862633"></circle><circle cx="60" cy="36" r="7" fill="#862633"></circle><circle cx="12" cy="60" r="7" fill="#862633"></circle><circle cx="36" cy="60" r="7" fill="#862633"></circle><circle cx="60" cy="60" r="7" fill="#862633"></circle></svg>
+<div style="position: absolute; inset: 0; background-image: {{s.bg}}; background-size: cover; background-position: center"></div>
 </div>
 <div style="padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 4px">
 <span style="font-weight: 700; font-size: 20px; letter-spacing: -0.3px">{{s.name}}</span>
@@ -85,6 +86,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 <div style="aspect-ratio: 4 / 5; background: #F4EDEC; position: relative; display: flex; align-items: center; justify-content: center">
 <span style="font-size: 64px; font-weight: 300; letter-spacing: 2px; color: #862633">{{s.ini}}</span>
 <svg width="18" height="18" viewBox="0 0 72 72" aria-hidden="true" style="position: absolute; right: 14px; bottom: 14px; opacity: 0.5"><circle cx="12" cy="12" r="7" fill="#D9C9CB"></circle><circle cx="36" cy="12" r="7" fill="#D9C9CB"></circle><circle cx="60" cy="12" r="7" fill="#862633"></circle><circle cx="12" cy="36" r="7" fill="#D9C9CB"></circle><circle cx="36" cy="36" r="7" fill="#862633"></circle><circle cx="60" cy="36" r="7" fill="#862633"></circle><circle cx="12" cy="60" r="7" fill="#862633"></circle><circle cx="36" cy="60" r="7" fill="#862633"></circle><circle cx="60" cy="60" r="7" fill="#862633"></circle></svg>
+<div style="position: absolute; inset: 0; background-image: {{s.bg}}; background-size: cover; background-position: center"></div>
 </div>
 <div style="padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 4px">
 <span style="font-weight: 700; font-size: 20px; letter-spacing: -0.3px">{{s.name}}</span>
@@ -101,6 +103,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 <div style="aspect-ratio: 4 / 5; background: #F4EDEC; position: relative; display: flex; align-items: center; justify-content: center">
 <span style="font-size: 64px; font-weight: 300; letter-spacing: 2px; color: #862633">{{s.ini}}</span>
 <svg width="18" height="18" viewBox="0 0 72 72" aria-hidden="true" style="position: absolute; right: 14px; bottom: 14px; opacity: 0.5"><circle cx="12" cy="12" r="7" fill="#D9C9CB"></circle><circle cx="36" cy="12" r="7" fill="#D9C9CB"></circle><circle cx="60" cy="12" r="7" fill="#862633"></circle><circle cx="12" cy="36" r="7" fill="#D9C9CB"></circle><circle cx="36" cy="36" r="7" fill="#862633"></circle><circle cx="60" cy="36" r="7" fill="#862633"></circle><circle cx="12" cy="60" r="7" fill="#862633"></circle><circle cx="36" cy="60" r="7" fill="#862633"></circle><circle cx="60" cy="60" r="7" fill="#862633"></circle></svg>
+<div style="position: absolute; inset: 0; background-image: {{s.bg}}; background-size: cover; background-position: center"></div>
 </div>
 <div style="padding: 18px 20px 20px; display: flex; flex-direction: column; gap: 4px">
 <span style="font-weight: 700; font-size: 20px; letter-spacing: -0.3px">{{s.name}}</span>
@@ -175,7 +178,11 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 <script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":5250}}'>
 class Component extends DCLogic {
 renderVals() {
-const s = (name, ini, bs, email) => ({ name, ini, bs, email: email + '@mcl.korea.ac.kr' });
+const P = {
+jwkim: '/_blob/783912d736126c95b5de85192345e40a'
+};
+const bg = (id) => P[id] ? 'url(' + P[id] + ')' : 'none';
+const s = (name, ini, bs, email) => ({ name, ini, bs, email: email + '@mcl.korea.ac.kr', bg: bg(email) });
 return {
 phd: [
 s('Jinwon Ko', 'JK', 'B.S. EE, Korea Univ., 2021', 'jwko'),
@@ -189,7 +196,7 @@ s('Beomjun Shim', 'BS', 'B.S. EE, Korea Univ., 2024', 'bjsim'),
 s('Hanbin Jeon', 'HJ', 'B.S. EE, Korea Univ., 2024', 'hanbinjeon')
 ],
 interns: [
-{ name: 'Saam Kim', ini: 'SK', bs: 'Undergraduate intern', email: 'saam@korea.ac.kr' }
+{ name: 'Saam Kim', ini: 'SK', bs: 'Undergraduate intern', email: 'saam@korea.ac.kr', bg: bg('saam') }
 ],
 ms: [
 s('Youngeon Kim', 'YK', 'B.S. Food Bioscience & AI, Korea Univ., 2025', 'youngeon'),

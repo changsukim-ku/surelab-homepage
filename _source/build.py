@@ -15,6 +15,7 @@ PAGES = {  # source -> (output file, page title)
 }
 BLOBS = {
     '/_blob/eb78a1e16175a13c8873a8f7041376aa': 'images/cskim.jpg',
+    '/_blob/783912d736126c95b5de85192345e40a': 'images/people/jiwon_kim.jpg',
     '/_blob/5583ebb25b09567b8a8654c6176e422a': 'images/card_order.svg',
     '/_blob/e94a593d9b08112bc906aab7616e7bae': 'images/card_compress.svg',
     '/_blob/de01229e8ad6e71a715f22b5870a4d05': 'images/card_vision.svg',
@@ -154,6 +155,7 @@ for src, (dst, title) in PAGES.items():
 shutil.copy(os.path.join(ASSETS, 'cskim2.jpg'), os.path.join(OUT, 'images', 'cskim.jpg'))
 shutil.copy(os.path.join(ASSETS, 'hero.svg'), os.path.join(OUT, 'images', 'hero.svg'))
 for _n in ('order','compress','vision'): shutil.copy(os.path.join(ASSETS, f'card_{_n}.svg'), os.path.join(OUT, 'images', f'card_{_n}.svg'))
+shutil.copytree(os.path.join(ASSETS, 'people'), os.path.join(OUT, 'images', 'people'), dirs_exist_ok=True)
 shutil.copytree(os.path.join(ASSETS, 'sel'), os.path.join(OUT, 'images', 'sel'), dirs_exist_ok=True)
 open(os.path.join(OUT, 'favicon.svg'), 'w').write(FAVICON)
 open(os.path.join(OUT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n')
