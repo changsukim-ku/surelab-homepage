@@ -15,6 +15,7 @@ PAGES = {  # source -> (output file, page title)
 }
 BLOBS = {
     '/_blob/eb78a1e16175a13c8873a8f7041376aa': 'images/cskim.jpg',
+    '/_blob/7a5f10d15bf4810485d150b5f77a9a52': 'images/hero.svg',
     '/_blob/83b91072d1403df0a48cb584c65ba301': 'images/sel/bli.jpg',
     '/_blob/ccb93590fcaeae9dae3b5b572996fd34': 'images/sel/conord.jpg',
     '/_blob/e40b11f7ef250d51daa900c0d772d3e8': 'images/sel/gol.jpg',
@@ -148,6 +149,7 @@ os.makedirs(os.path.join(OUT, 'images'), exist_ok=True)
 for src, (dst, title) in PAGES.items():
     build_page(src, dst, title)
 shutil.copy(os.path.join(ASSETS, 'cskim2.jpg'), os.path.join(OUT, 'images', 'cskim.jpg'))
+shutil.copy(os.path.join(ASSETS, 'hero.svg'), os.path.join(OUT, 'images', 'hero.svg'))
 shutil.copytree(os.path.join(ASSETS, 'sel'), os.path.join(OUT, 'images', 'sel'), dirs_exist_ok=True)
 open(os.path.join(OUT, 'favicon.svg'), 'w').write(FAVICON)
 print('built', sorted(os.listdir(OUT)))
