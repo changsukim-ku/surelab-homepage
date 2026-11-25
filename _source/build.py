@@ -156,4 +156,5 @@ shutil.copy(os.path.join(ASSETS, 'hero.svg'), os.path.join(OUT, 'images', 'hero.
 for _n in ('order','compress','vision'): shutil.copy(os.path.join(ASSETS, f'card_{_n}.svg'), os.path.join(OUT, 'images', f'card_{_n}.svg'))
 shutil.copytree(os.path.join(ASSETS, 'sel'), os.path.join(OUT, 'images', 'sel'), dirs_exist_ok=True)
 open(os.path.join(OUT, 'favicon.svg'), 'w').write(FAVICON)
+open(os.path.join(OUT, 'robots.txt'), 'w').write('User-agent: *\nAllow: /\n')
 print('built', sorted(os.listdir(OUT)))
