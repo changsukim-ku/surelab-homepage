@@ -29,7 +29,7 @@ for line in open('/home/claude/pubdata/extra.tsv'):
     prev = [q['n'] for q in out if q['k']==k and (int(q['y']), q['m']) <= (int(y), m)]
     out.append(dict(y=y, k=k, n=(max(prev) if prev else 0)+0.5, authors=au, title=ti, venue=ve, m=m))
 for k in ('conf','jour'):
-    for i, q in enumerate(sorted((q for q in out if q['k']==k), key=lambda q: q['n']), 1):
+    for i, q in enumerate(sorted((q for q in out if q['k']==k), key=lambda q: (q['n'], int(q['y']), q['m'])), 1):
         q['n'] = i; q['no'] = ('C' if k=='conf' else 'J')+str(i)
 nc = sum(p['k']=='conf' for p in out); nj = len(out)-nc
 out.sort(key=lambda p: (-int(p['y']), -p['m'], p['k']!='conf', -p['n']))
