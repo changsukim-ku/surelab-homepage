@@ -16,7 +16,7 @@ PAGES = {  # source -> (output file, page title)
 BLOBS = {
     '/_blob/eb78a1e16175a13c8873a8f7041376aa': 'images/cskim.jpg',
     '/_blob/783912d736126c95b5de85192345e40a': 'images/people/jiwon_kim.jpg',
-    '/_blob/f0817c7b7ef9e9e5f58d3547a98d51f5': 'images/people/junhyeok_heo.jpg',
+    '/_blob/09bf4bf43c3dff5297d26a142de54c83': 'images/people/junhyeok_heo.jpg',
     '/_blob/5583ebb25b09567b8a8654c6176e422a': 'images/card_order.svg',
     '/_blob/e94a593d9b08112bc906aab7616e7bae': 'images/card_compress.svg',
     '/_blob/0687550905e7399cd1c8c2c51ee1ffcc': 'images/card_vision.svg',
