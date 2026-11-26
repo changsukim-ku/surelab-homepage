@@ -35,7 +35,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 
 <section style="max-width: 1200px; margin: 0 auto; padding: 72px 32px 24px; display: flex; flex-direction: column; gap: 12px">
 <h1 style="margin: 0; font-size: 48px; letter-spacing: -1.2px">Weekly Seminars</h1>
-<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #44444C; max-width: 760px">Every Friday afternoon, one student presents a recent paper and two students report on their own research. Seminars from the past twelve months are listed below.</p>
+<p style="margin: 0; font-size: 17px; line-height: 1.6; color: #44444C; max-width: 760px">Every Friday afternoon, one student presents a recent paper and one or two students report on their own research. Seminars from the past six months are listed below.</p>
 </section>
 
 <section style="max-width: 1200px; margin: 0 auto; padding: 24px 32px 72px; display: flex; flex-direction: column">
@@ -44,7 +44,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 <span style="flex: 999 1 480px">Paper seminar</span>
 <span style="flex: 0 0 240px">Research seminar</span>
 </div>
-<sc-for list="{{rows}}" as="r" hint-placeholder-count="7">
+<sc-for list="{{rows}}" as="r" hint-placeholder-count="23">
 <div style="display: flex; flex-wrap: wrap; gap: 6px 24px; padding: 18px 0; border-bottom: 1px solid #E4E2DE; font-size: 15px; line-height: 1.5">
 <span style="flex: 0 0 110px; color: #55555E">{{r.date}}</span>
 <span style="flex: 999 1 480px; min-width: 0; display: flex; flex-direction: column; gap: 2px">
@@ -72,7 +72,7 @@ a{color:#17171B;text-decoration:none}a:hover{color:#862633}
 
 </div>
 </x-dc>
-<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":1500}}'>
+<script type="text/x-dc" data-dc-script data-props='{"$preview":{"width":1440,"height":3000}}'>
 class Component extends DCLogic {
 renderVals() {
 const r = (date, presenter, title, research) => ({ date, presenter, title, research });
@@ -85,7 +85,22 @@ r('Nov 6, 2026', 'Chaewon Lee', 'GoR: A Unified and Extensible Generative Framew
 r('Oct 30, 2026', 'Jaeseok Jang', 'InfoTok: Adaptive Discrete Video Tokenizer via Information-Theoretic Compression (ICLR 2026)', 'Jiwon Kim, Jintae Kim'),
 r('Oct 23, 2026', 'Jinwon Ko', 'ColorFM: An Optimization-to-Learning Framework for Color Transfer via Flow Matching (ECCV 2026)', 'Minseo Cho, Chaewon Lee'),
 r('Oct 16, 2026', 'Hanbin Jeon', 'Reasoning as Representation: Rethinking Visual Reinforcement Learning in Image Quality Assessment (ICLR 2026)', 'Youngeon Kim, Jaeseok Jang'),
-r('Oct 2, 2026', 'Seungmin Jeon', 'Ultra-fast neural video compression (CVPR 2026)', 'Beomjun Shim, Junhyeok Heo')
+r('Oct 2, 2026', 'Seungmin Jeon', 'Ultra-fast neural video compression (CVPR 2026)', 'Beomjun Shim, Junhyeok Heo'),
+r('Sep 18, 2026', 'Jintae Kim', 'UniRefiner: Teaching Pre-trained ViTs to Self-Dispose Dross via Contrastive Register (CVPR 2026)', 'Donghyun Son, Hanbin Jeon'),
+r('Sep 11, 2026', 'Beomjun Shim', 'Resolving Token-Space Gradient Conflicts: Token Space Manipulation for Transformer-Based Multi-Task Learning (ICCV 2025)', 'Jiwon Kim, Jinwon Ko'),
+r('Sep 4, 2026', 'Junhyeok Heo', 'Beyond Cosine Similarity: Magnitude-Aware CLIP for No-Reference Image Quality Assessment (AAAI 2026)', 'Jintae Kim, Seunggyun Woo'),
+r('Aug 28, 2026', 'Donghyun Son', 'MambaIRv2: Attentive State Space Restoration (CVPR 2025)', 'Chaewon Lee, Seungmin Jeon'),
+r('Aug 21, 2026', 'Youngeon Kim', 'BiM-VFI: Bidirectional Motion Field-Guided Frame Interpolation for Video with Non-uniform Motions (CVPR 2025)', 'Jaeseok Jang, Minseo Cho'),
+r('Aug 7, 2026', 'Seunggyun Woo', 'StreamingTOM: Streaming Token Compression for Efficient Video Understanding (CVPR 2026)', 'Junhyeok Heo, Youngeon Kim'),
+r('Jul 31, 2026', 'Jiwon Kim', 'AdaIR: Adaptive All-in-One Image Restoration via Frequency Mining and Modulation (ICLR 2025)', 'Hanbin Jeon, Donghyun Son'),
+r('Jul 24, 2026', 'Jintae Kim', 'Random Wins All: Rethinking Grouping Strategies for Vision Tokens (CVPR 2026)', 'Jinwon Ko, Beomjun Shim'),
+r('Jul 10, 2026', 'Jaeseok Jang', 'Discovering Adaptive Task Dependencies for Efficient Multi-Task Representation Compression (CVPR 2026)', 'Seunggyun Woo, Seungmin Jeon'),
+r('Jul 3, 2026', 'Chaewon Lee', 'Contrastive Learning for Semi-Supervised Deep Regression with Generalized Ordinal Rankings from Spectral Seriation (TPAMI 2026)', 'Jiwon Kim, Jintae Kim'),
+r('Jun 26, 2026', 'Jinwon Ko', 'Personalized Image Enhancement Featuring Masked Style Modeling (TCSVT 2023)', 'Minseo Cho, Chaewon Lee'),
+r('Jun 19, 2026', 'Seungmin Jeon', 'DyCoke: Dynamic Compression of Tokens for Fast Video Large Language Models (CVPR 2025)', 'Youngeon Kim, Jaeseok Jang'),
+r('Jun 12, 2026', 'Hanbin Jeon', 'A More Word-like Image Tokenization for MLLMs (CVPR 2026)', 'Beomjun Shim, Junhyeok Heo'),
+r('Jun 5, 2026', 'Junhyeok Heo', 'Life-IQA: Boosting Blind Image Quality Assessment through GCN-enhanced Layer Interaction and MoE-based Feature Decoupling (CVPR 2026)', 'Donghyun Son, Hanbin Jeon'),
+r('May 29, 2026', 'Beomjun Shim', 'Learning Where to Look and How to Judge: Resolution-agnostic Image Quality Assessment with Quality-aware Saliency (CVPR 2026)', 'Jiwon Kim, Jinwon Ko')
 ]
 };
 }
