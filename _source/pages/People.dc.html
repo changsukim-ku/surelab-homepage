@@ -185,11 +185,16 @@ const P = {
 jwkim: '/_blob/783912d736126c95b5de85192345e40a',
 hjh0721: '/_blob/09bf4bf43c3dff5297d26a142de54c83',
   minseocho: '/_blob/d7fdd4f5d7154b88cba05ed9cb625c17',
+  jwko: '/_blob/311cec25340ae8e15078fa79a2401e47',
+  jsjang: '/_blob/38a38d37f12352a3567c465beaef63db',
+  seungminjeon: '/_blob/5c749ba680f200760b3a82e4e8cbf377',
   youngeon: '/_blob/1b074af8ee16053049137c13335e7093'
 };
 const bg = (id) => P[id] ? 'url(' + P[id] + ')' : 'none';
 const L = {
-  minseocho: 'https://github.com/ChoChoMinSeo'
+  minseocho: 'https://github.com/ChoChoMinSeo',
+  jsjang: 'https://github.com/jsjang0209',
+  seungminjeon: 'https://github.com/seungminjeon-github'
 };
 const lk = (id) => ({ url: L[id] || '#', ld: L[id] ? 'block' : 'none' });
 const s = (name, ini, bs, email) => ({ name, ini, bs, email: email + '@mcl.korea.ac.kr', bg: bg(email), ...lk(email) });
