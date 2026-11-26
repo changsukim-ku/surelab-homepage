@@ -18,9 +18,20 @@ for f in sorted(glob.glob('/home/claude/pubdata/*.txt')):
         m = 0
         for mm in re.findall(r'\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)', ve): m = MON[mm]
         out.append(dict(y=y, k=k, n=n, no=('C' if k=='conf' else 'J')+str(n), authors=au, title=ti, venue=ve, m=m))
+for line in open('/home/claude/pubdata/extra.tsv'):
+    line = line.strip()
+    if not line: continue
+    k, y, au, ti, ve = [x.strip() for x in line.split(' | ')]
+    ve = re.sub(r'^in Proc\. ', '', ve)
+    ve = re.sub(r'\.(\s*\(|$)', r'\1', ve).rstrip('.')
+    m = 0
+    for mm in re.findall(r'\b(Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)', ve): m = MON[mm]
+    prev = [q['n'] for q in out if q['k']==k and (int(q['y']), q['m']) <= (int(y), m)]
+    out.append(dict(y=y, k=k, n=(max(prev) if prev else 0)+0.5, authors=au, title=ti, venue=ve, m=m))
+for k in ('conf','jour'):
+    for i, q in enumerate(sorted((q for q in out if q['k']==k), key=lambda q: q['n']), 1):
+        q['n'] = i; q['no'] = ('C' if k=='conf' else 'J')+str(i)
 nc = sum(p['k']=='conf' for p in out); nj = len(out)-nc
-assert sorted(p['n'] for p in out if p['k']=='conf') == list(range(1,249)), 'conf gaps'
-assert sorted(p['n'] for p in out if p['k']=='jour') == list(range(1,109)), 'jour gaps'
 out.sort(key=lambda p: (-int(p['y']), -p['m'], p['k']!='conf', -p['n']))
 lines = []
 for p in out:
