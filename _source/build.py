@@ -22,6 +22,7 @@ BLOBS = {
     '/_blob/311cec25340ae8e15078fa79a2401e47': 'images/people/jinwon_ko.jpg',
     '/_blob/38a38d37f12352a3567c465beaef63db': 'images/people/jaeseok_jang.jpg',
     '/_blob/5c749ba680f200760b3a82e4e8cbf377': 'images/people/seungmin_jeon.jpg',
+    '/_blob/bb01036d2bcbcdc07958dbd3c2262285': 'images/people/donghyun_son.jpg',
     '/_blob/5583ebb25b09567b8a8654c6176e422a': 'images/card_order.svg',
     '/_blob/e94a593d9b08112bc906aab7616e7bae': 'images/card_compress.svg',
     '/_blob/0687550905e7399cd1c8c2c51ee1ffcc': 'images/card_vision.svg',
