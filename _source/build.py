@@ -18,7 +18,7 @@ BLOBS = {
     '/_blob/783912d736126c95b5de85192345e40a': 'images/people/jiwon_kim.jpg',
     '/_blob/5583ebb25b09567b8a8654c6176e422a': 'images/card_order.svg',
     '/_blob/e94a593d9b08112bc906aab7616e7bae': 'images/card_compress.svg',
-    '/_blob/de01229e8ad6e71a715f22b5870a4d05': 'images/card_vision.svg',
+    '/_blob/0687550905e7399cd1c8c2c51ee1ffcc': 'images/card_vision.svg',
     '/_blob/db56b41b023cd010f91c2a727716c49d': 'images/hero.svg',
     '/_blob/83b91072d1403df0a48cb584c65ba301': 'images/sel/bli.jpg',
     '/_blob/ccb93590fcaeae9dae3b5b572996fd34': 'images/sel/conord.jpg',
