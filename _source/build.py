@@ -28,6 +28,7 @@ BLOBS = {
     '/_blob/2e0f6588e278dc81b4da8ebff76d3a12': 'images/people/beomjun_shim.jpg',
     '/_blob/1b3c5c29e43f478e4453e708e1f519ec': 'images/people/seunggyun_woo.jpg',
     '/_blob/c696a06ded951bbed6b54a549fd3665f': 'images/people/chaewon_lee.jpg',
+    '/_blob/d1353520c4fd854a6019c7cc62e7800b': 'images/people/saam.jpg',
     '/_blob/5583ebb25b09567b8a8654c6176e422a': 'images/card_order.svg',
     '/_blob/e94a593d9b08112bc906aab7616e7bae': 'images/card_compress.svg',
     '/_blob/0687550905e7399cd1c8c2c51ee1ffcc': 'images/card_vision.svg',
